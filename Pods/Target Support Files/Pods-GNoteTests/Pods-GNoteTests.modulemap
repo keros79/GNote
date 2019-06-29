@@ -1,0 +1,6 @@
+framework module Pods_GNoteTests {
+  umbrella header "Pods-GNoteTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

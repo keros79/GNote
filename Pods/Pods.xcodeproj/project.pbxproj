@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0125B443D6CAD273953765B4920E80E5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		0CDB5113DE70568EEF54F9984351FDEF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		2204B5764D08438FC15EB319A114DCA2 /* Pods-GNoteTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 413AA2B4A91816EE8D8C48069BDCBECB /* Pods-GNoteTests-dummy.m */; };
+		377709AD43B357B40092D23773B9CEEB /* Pods-GNote-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A75BEED7102BFB29781FC3A3CF6653DF /* Pods-GNote-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92512F9D8B0891552595E794487A7A76 /* Pods-GNoteUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 045201B9176353687B2A5F4E768D4B2F /* Pods-GNoteUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5C63FDBD9B9AC7D936DBA86B5F673E2 /* Pods-GNoteTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 902CCC13B03D31F04FB25855E545C011 /* Pods-GNoteTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4FA443E99DB0D2F53DD3B250A6CD35F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		C97A95BFE18A77AC5EACD2A9B4EA4061 /* Pods-GNoteUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C749230331E7F3A475815BBED67FB9CA /* Pods-GNoteUITests-dummy.m */; };
+		D32C92B08786686EDEC5E22462C040C8 /* Pods-GNote-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF87C4D9800133ED0390DA02688E825 /* Pods-GNote-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		540FE852DE7D06FA26D547AD8C5161FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DE19C2AA0EA76702729A0E36600A6BD;
+			remoteInfo = "Pods-GNote";
+		};
+		C3216D9814BACE75411931CA4AFA1D4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DE19C2AA0EA76702729A0E36600A6BD;
+			remoteInfo = "Pods-GNote";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026284ED2A1C9A8181AD2CC8C2915E97 /* Pods_GNoteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GNoteTests.framework; path = "Pods-GNoteTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		045201B9176353687B2A5F4E768D4B2F /* Pods-GNoteUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GNoteUITests-umbrella.h"; sourceTree = "<group>"; };
+		0BACDC245102F48D9F27315F56947F39 /* Pods-GNote-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNote-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F958FA41151E3A66ABA15D325EC3613 /* Pods-GNote-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNote-Info.plist"; sourceTree = "<group>"; };
+		168DFB8947A4856AEF1ECCA5E29C50E6 /* Pods-GNoteTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNoteTests-Info.plist"; sourceTree = "<group>"; };
+		2DAAB0FA6D66F3B096A11FB7156CDAC5 /* Pods-GNoteTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNoteTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		413AA2B4A91816EE8D8C48069BDCBECB /* Pods-GNoteTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GNoteTests-dummy.m"; sourceTree = "<group>"; };
+		4426381AF838CB05D9373223C2D7075A /* Pods-GNoteTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GNoteTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		53042C85A977EA57CFC7E753BCFD1BB0 /* Pods_GNoteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GNoteUITests.framework; path = "Pods-GNoteUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CE8F57C7E75F7452126C810CAC82E2E /* Pods-GNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNote.debug.xcconfig"; sourceTree = "<group>"; };
+		620F459591F0E3FED5EE3D5E51E82C06 /* Pods_GNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GNote.framework; path = "Pods-GNote.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F92B2E2C15866CCB55A2ED783E9D27 /* Pods-GNoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNoteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6765B9E47DB0672EC32E0E66D0E43EDC /* Pods-GNoteUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GNoteUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7B0DE3DFB5D172BC1E05ADCC1D15B88C /* Pods-GNote-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GNote-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7FF87C4D9800133ED0390DA02688E825 /* Pods-GNote-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GNote-dummy.m"; sourceTree = "<group>"; };
+		8678FB4942A016192032655F1D5FDAF1 /* Pods-GNoteTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GNoteTests.modulemap"; sourceTree = "<group>"; };
+		902CCC13B03D31F04FB25855E545C011 /* Pods-GNoteTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GNoteTests-umbrella.h"; sourceTree = "<group>"; };
+		93EFB95C8295AC022AB56E6CC7A0DA2E /* Pods-GNoteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNoteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		968171E03ED92C2CB8CD119A66E9B168 /* Pods-GNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNote.release.xcconfig"; sourceTree = "<group>"; };
+		983AC1F61ACADFCF8B6DA6BB738BD28F /* Pods-GNoteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNoteTests.release.xcconfig"; sourceTree = "<group>"; };
+		991E20B384DD042DBCD96E40050B7E92 /* Pods-GNoteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNoteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A75BEED7102BFB29781FC3A3CF6653DF /* Pods-GNote-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GNote-umbrella.h"; sourceTree = "<group>"; };
+		C749230331E7F3A475815BBED67FB9CA /* Pods-GNoteUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GNoteUITests-dummy.m"; sourceTree = "<group>"; };
+		D74F74826BA491D47ECFC08EEBA751D3 /* Pods-GNoteUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNoteUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DCFBC602B2F8E15FF1995B27ABC2E7D5 /* Pods-GNote.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GNote.modulemap"; sourceTree = "<group>"; };
+		E35590DB8395447BC035DD4CF358406B /* Pods-GNoteUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GNoteUITests.modulemap"; sourceTree = "<group>"; };
+		E6AB33860415619768B9ED548E855A2E /* Pods-GNoteUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNoteUITests-Info.plist"; sourceTree = "<group>"; };
+		F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		206E8B2D33E97828663BB592EA7F1E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0125B443D6CAD273953765B4920E80E5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75679F9366D1CF569FAC5FCA8494F7F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4FA443E99DB0D2F53DD3B250A6CD35F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925503F9FC20210147C84C89BFBFD5B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CDB5113DE70568EEF54F9984351FDEF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		002DDAF9C9C6B83280086C21424FDAAC /* Pods-GNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				8678FB4942A016192032655F1D5FDAF1 /* Pods-GNoteTests.modulemap */,
+				4426381AF838CB05D9373223C2D7075A /* Pods-GNoteTests-acknowledgements.markdown */,
+				2DAAB0FA6D66F3B096A11FB7156CDAC5 /* Pods-GNoteTests-acknowledgements.plist */,
+				413AA2B4A91816EE8D8C48069BDCBECB /* Pods-GNoteTests-dummy.m */,
+				168DFB8947A4856AEF1ECCA5E29C50E6 /* Pods-GNoteTests-Info.plist */,
+				902CCC13B03D31F04FB25855E545C011 /* Pods-GNoteTests-umbrella.h */,
+				62F92B2E2C15866CCB55A2ED783E9D27 /* Pods-GNoteTests.debug.xcconfig */,
+				983AC1F61ACADFCF8B6DA6BB738BD28F /* Pods-GNoteTests.release.xcconfig */,
+			);
+			name = "Pods-GNoteTests";
+			path = "Target Support Files/Pods-GNoteTests";
+			sourceTree = "<group>";
+		};
+		36C618DC8F0B1CC2231A5825D1B624A4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3F0301F54B36D6A779A2E9891002893 /* Pods-GNote */,
+				002DDAF9C9C6B83280086C21424FDAAC /* Pods-GNoteTests */,
+				5879691B6C4EDDFC66A7D324539BA1D0 /* Pods-GNoteUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5879691B6C4EDDFC66A7D324539BA1D0 /* Pods-GNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E35590DB8395447BC035DD4CF358406B /* Pods-GNoteUITests.modulemap */,
+				6765B9E47DB0672EC32E0E66D0E43EDC /* Pods-GNoteUITests-acknowledgements.markdown */,
+				D74F74826BA491D47ECFC08EEBA751D3 /* Pods-GNoteUITests-acknowledgements.plist */,
+				C749230331E7F3A475815BBED67FB9CA /* Pods-GNoteUITests-dummy.m */,
+				E6AB33860415619768B9ED548E855A2E /* Pods-GNoteUITests-Info.plist */,
+				045201B9176353687B2A5F4E768D4B2F /* Pods-GNoteUITests-umbrella.h */,
+				93EFB95C8295AC022AB56E6CC7A0DA2E /* Pods-GNoteUITests.debug.xcconfig */,
+				991E20B384DD042DBCD96E40050B7E92 /* Pods-GNoteUITests.release.xcconfig */,
+			);
+			name = "Pods-GNoteUITests";
+			path = "Target Support Files/Pods-GNoteUITests";
+			sourceTree = "<group>";
+		};
+		ACEE0D514148EAD490C402DC20F6EA29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				620F459591F0E3FED5EE3D5E51E82C06 /* Pods_GNote.framework */,
+				026284ED2A1C9A8181AD2CC8C2915E97 /* Pods_GNoteTests.framework */,
+				53042C85A977EA57CFC7E753BCFD1BB0 /* Pods_GNoteUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3F0301F54B36D6A779A2E9891002893 /* Pods-GNote */ = {
+			isa = PBXGroup;
+			children = (
+				DCFBC602B2F8E15FF1995B27ABC2E7D5 /* Pods-GNote.modulemap */,
+				7B0DE3DFB5D172BC1E05ADCC1D15B88C /* Pods-GNote-acknowledgements.markdown */,
+				0BACDC245102F48D9F27315F56947F39 /* Pods-GNote-acknowledgements.plist */,
+				7FF87C4D9800133ED0390DA02688E825 /* Pods-GNote-dummy.m */,
+				0F958FA41151E3A66ABA15D325EC3613 /* Pods-GNote-Info.plist */,
+				A75BEED7102BFB29781FC3A3CF6653DF /* Pods-GNote-umbrella.h */,
+				5CE8F57C7E75F7452126C810CAC82E2E /* Pods-GNote.debug.xcconfig */,
+				968171E03ED92C2CB8CD119A66E9B168 /* Pods-GNote.release.xcconfig */,
+			);
+			name = "Pods-GNote";
+			path = "Target Support Files/Pods-GNote";
+			sourceTree = "<group>";
+		};
+		CBD43E0947D94E318A0ED1350CFF29ED /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
+				ACEE0D514148EAD490C402DC20F6EA29 /* Products */,
+				36C618DC8F0B1CC2231A5825D1B624A4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBD43E0947D94E318A0ED1350CFF29ED /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1126F2029CB938BCFCFE40CB28897A92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C63FDBD9B9AC7D936DBA86B5F673E2 /* Pods-GNoteTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80D94781632452B90C239BDFC0CDC98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92512F9D8B0891552595E794487A7A76 /* Pods-GNoteUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA452BFCE2A200C90B7D2D4CF8D5CC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377709AD43B357B40092D23773B9CEEB /* Pods-GNote-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7E1CD4A848D8067D93F11AC69A9FD038 /* Pods-GNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D2B8208299EDAA88D6CF1463F91F50 /* Build configuration list for PBXNativeTarget "Pods-GNoteUITests" */;
+			buildPhases = (
+				A80D94781632452B90C239BDFC0CDC98 /* Headers */,
+				B4114AE5756372B3AB475407FDA186C1 /* Sources */,
+				206E8B2D33E97828663BB592EA7F1E92 /* Frameworks */,
+				322E94C021E30E2E440E5E8CCBCFEA91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CB4CC8C98C789C9E7799895989E0596 /* PBXTargetDependency */,
+			);
+			name = "Pods-GNoteUITests";
+			productName = "Pods-GNoteUITests";
+			productReference = 53042C85A977EA57CFC7E753BCFD1BB0 /* Pods_GNoteUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8DE19C2AA0EA76702729A0E36600A6BD /* Pods-GNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C28A0C1A61A40330DB91EEAEF11E4363 /* Build configuration list for PBXNativeTarget "Pods-GNote" */;
+			buildPhases = (
+				FAA452BFCE2A200C90B7D2D4CF8D5CC7 /* Headers */,
+				6528B46A59E87B2C84A1E2009D27BE8A /* Sources */,
+				75679F9366D1CF569FAC5FCA8494F7F5 /* Frameworks */,
+				8FF1871759C55CDA41CC1F9C82CA84A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GNote";
+			productName = "Pods-GNote";
+			productReference = 620F459591F0E3FED5EE3D5E51E82C06 /* Pods_GNote.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9AC3FF0A65EC4882D4F28D367FECC81 /* Pods-GNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8E614693829E147122954226C7197D2 /* Build configuration list for PBXNativeTarget "Pods-GNoteTests" */;
+			buildPhases = (
+				1126F2029CB938BCFCFE40CB28897A92 /* Headers */,
+				072BA61FF1A433992C731D78463094FB /* Sources */,
+				925503F9FC20210147C84C89BFBFD5B3 /* Frameworks */,
+				C50B2EA5BF343EAE0CE2EC5AF12EFCF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F82B6521119140226281FEB8837BC2F1 /* PBXTargetDependency */,
+			);
+			name = "Pods-GNoteTests";
+			productName = "Pods-GNoteTests";
+			productReference = 026284ED2A1C9A8181AD2CC8C2915E97 /* Pods_GNoteTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = ACEE0D514148EAD490C402DC20F6EA29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DE19C2AA0EA76702729A0E36600A6BD /* Pods-GNote */,
+				A9AC3FF0A65EC4882D4F28D367FECC81 /* Pods-GNoteTests */,
+				7E1CD4A848D8067D93F11AC69A9FD038 /* Pods-GNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		322E94C021E30E2E440E5E8CCBCFEA91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF1871759C55CDA41CC1F9C82CA84A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50B2EA5BF343EAE0CE2EC5AF12EFCF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		072BA61FF1A433992C731D78463094FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2204B5764D08438FC15EB319A114DCA2 /* Pods-GNoteTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6528B46A59E87B2C84A1E2009D27BE8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32C92B08786686EDEC5E22462C040C8 /* Pods-GNote-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4114AE5756372B3AB475407FDA186C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97A95BFE18A77AC5EACD2A9B4EA4061 /* Pods-GNoteUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CB4CC8C98C789C9E7799895989E0596 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GNote";
+			target = 8DE19C2AA0EA76702729A0E36600A6BD /* Pods-GNote */;
+			targetProxy = C3216D9814BACE75411931CA4AFA1D4F /* PBXContainerItemProxy */;
+		};
+		F82B6521119140226281FEB8837BC2F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GNote";
+			target = 8DE19C2AA0EA76702729A0E36600A6BD /* Pods-GNote */;
+			targetProxy = 540FE852DE7D06FA26D547AD8C5161FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04552AC2A02E1ECDD3D863F0BB981303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 983AC1F61ACADFCF8B6DA6BB738BD28F /* Pods-GNoteTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-GNoteTests/Pods-GNoteTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-GNoteTests/Pods-GNoteTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0922766066D298EF08AA2368EBA144D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93EFB95C8295AC022AB56E6CC7A0DA2E /* Pods-GNoteUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-GNoteUITests/Pods-GNoteUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-GNoteUITests/Pods-GNoteUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1C9787CE6FE548AF73EBC4101F37F793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 991E20B384DD042DBCD96E40050B7E92 /* Pods-GNoteUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-GNoteUITests/Pods-GNoteUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-GNoteUITests/Pods-GNoteUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		430C0A1F2A9CB52955BEC7CE69B7B629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		597E092427DF423992C59C814880FE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7E0F9FEBEF9D818E7F7FFD6A776DE62D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 968171E03ED92C2CB8CD119A66E9B168 /* Pods-GNote.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-GNote/Pods-GNote-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-GNote/Pods-GNote.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8EAD227CC68D6F8A37BB73902188F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F92B2E2C15866CCB55A2ED783E9D27 /* Pods-GNoteTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-GNoteTests/Pods-GNoteTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-GNoteTests/Pods-GNoteTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D92E3E7ED2D3A3710D86878952B0D7CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE8F57C7E75F7452126C810CAC82E2E /* Pods-GNote.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-GNote/Pods-GNote-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-GNote/Pods-GNote.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07D2B8208299EDAA88D6CF1463F91F50 /* Build configuration list for PBXNativeTarget "Pods-GNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0922766066D298EF08AA2368EBA144D2 /* Debug */,
+				1C9787CE6FE548AF73EBC4101F37F793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				430C0A1F2A9CB52955BEC7CE69B7B629 /* Debug */,
+				597E092427DF423992C59C814880FE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C28A0C1A61A40330DB91EEAEF11E4363 /* Build configuration list for PBXNativeTarget "Pods-GNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92E3E7ED2D3A3710D86878952B0D7CC /* Debug */,
+				7E0F9FEBEF9D818E7F7FFD6A776DE62D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8E614693829E147122954226C7197D2 /* Build configuration list for PBXNativeTarget "Pods-GNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8EAD227CC68D6F8A37BB73902188F6E /* Debug */,
+				04552AC2A02E1ECDD3D863F0BB981303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

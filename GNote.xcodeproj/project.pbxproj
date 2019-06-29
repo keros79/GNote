@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		340E4ED9937EDE961207390F /* Pods_GNote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4FA91448F228071C54ABC9 /* Pods_GNote.framework */; };
+		74044F551FF01C5934F373ED /* Pods_GNoteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C48ED0E4184AD418FCEECC /* Pods_GNoteUITests.framework */; };
+		E8296D2822C718E10016579C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8296D2722C718E10016579C /* AppDelegate.swift */; };
+		E8296D2C22C718E20016579C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8296D2B22C718E20016579C /* Assets.xcassets */; };
+		E8296D2F22C718E20016579C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8296D2D22C718E20016579C /* Main.storyboard */; };
+		E8296D3B22C718E20016579C /* GNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8296D3A22C718E20016579C /* GNoteTests.swift */; };
+		E8296D4622C718E20016579C /* GNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8296D4522C718E20016579C /* GNoteUITests.swift */; };
+		E8296D5822C733F30016579C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8296D5722C733F30016579C /* MainViewController.swift */; };
+		E8296D5A22C7340C0016579C /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8296D5922C7340C0016579C /* MainWindowController.swift */; };
+		EC8FABE58852077C01F3CA47 /* Pods_GNoteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1AC6C208C2B7345ADFBAEFC /* Pods_GNoteTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8296D3722C718E20016579C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8296D1C22C718E10016579C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8296D2322C718E10016579C;
+			remoteInfo = GNote;
+		};
+		E8296D4222C718E20016579C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8296D1C22C718E10016579C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8296D2322C718E10016579C;
+			remoteInfo = GNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35C48ED0E4184AD418FCEECC /* Pods_GNoteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GNoteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84806C45785B05B942E27A21 /* Pods-GNoteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNoteTests.release.xcconfig"; path = "Target Support Files/Pods-GNoteTests/Pods-GNoteTests.release.xcconfig"; sourceTree = "<group>"; };
+		8FDC48F630BA4A3753B1DDE0 /* Pods-GNoteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNoteUITests.release.xcconfig"; path = "Target Support Files/Pods-GNoteUITests/Pods-GNoteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9C4FA91448F228071C54ABC9 /* Pods_GNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1AC6C208C2B7345ADFBAEFC /* Pods_GNoteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GNoteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71E05F6CBCD1AB3EB26BA95 /* Pods-GNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNote.debug.xcconfig"; path = "Target Support Files/Pods-GNote/Pods-GNote.debug.xcconfig"; sourceTree = "<group>"; };
+		DFB5423FEB9211452529FE90 /* Pods-GNoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNoteTests.debug.xcconfig"; path = "Target Support Files/Pods-GNoteTests/Pods-GNoteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8296D2422C718E10016579C /* GNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8296D2722C718E10016579C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8296D2B22C718E20016579C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8296D2E22C718E20016579C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8296D3022C718E20016579C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8296D3122C718E20016579C /* GNote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GNote.entitlements; sourceTree = "<group>"; };
+		E8296D3622C718E20016579C /* GNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8296D3A22C718E20016579C /* GNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GNoteTests.swift; sourceTree = "<group>"; };
+		E8296D3C22C718E20016579C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8296D4122C718E20016579C /* GNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8296D4522C718E20016579C /* GNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GNoteUITests.swift; sourceTree = "<group>"; };
+		E8296D4722C718E20016579C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8296D5722C733F30016579C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E8296D5922C7340C0016579C /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		FCDF42F1C7EA9F8777A2D22E /* Pods-GNoteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNoteUITests.debug.xcconfig"; path = "Target Support Files/Pods-GNoteUITests/Pods-GNoteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE314AF9AD3CCC67615D1142 /* Pods-GNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNote.release.xcconfig"; path = "Target Support Files/Pods-GNote/Pods-GNote.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8296D2122C718E10016579C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340E4ED9937EDE961207390F /* Pods_GNote.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8296D3322C718E20016579C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8FABE58852077C01F3CA47 /* Pods_GNoteTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8296D3E22C718E20016579C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74044F551FF01C5934F373ED /* Pods_GNoteUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26E11A60A925383586A8F556 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C71E05F6CBCD1AB3EB26BA95 /* Pods-GNote.debug.xcconfig */,
+				FE314AF9AD3CCC67615D1142 /* Pods-GNote.release.xcconfig */,
+				DFB5423FEB9211452529FE90 /* Pods-GNoteTests.debug.xcconfig */,
+				84806C45785B05B942E27A21 /* Pods-GNoteTests.release.xcconfig */,
+				FCDF42F1C7EA9F8777A2D22E /* Pods-GNoteUITests.debug.xcconfig */,
+				8FDC48F630BA4A3753B1DDE0 /* Pods-GNoteUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A45C5C1EBBBB8A6EC38BB9F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C4FA91448F228071C54ABC9 /* Pods_GNote.framework */,
+				A1AC6C208C2B7345ADFBAEFC /* Pods_GNoteTests.framework */,
+				35C48ED0E4184AD418FCEECC /* Pods_GNoteUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8296D1B22C718E10016579C = {
+			isa = PBXGroup;
+			children = (
+				E8296D2622C718E10016579C /* GNote */,
+				E8296D3922C718E20016579C /* GNoteTests */,
+				E8296D4422C718E20016579C /* GNoteUITests */,
+				E8296D2522C718E10016579C /* Products */,
+				26E11A60A925383586A8F556 /* Pods */,
+				A45C5C1EBBBB8A6EC38BB9F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E8296D2522C718E10016579C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8296D2422C718E10016579C /* GNote.app */,
+				E8296D3622C718E20016579C /* GNoteTests.xctest */,
+				E8296D4122C718E20016579C /* GNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8296D2622C718E10016579C /* GNote */ = {
+			isa = PBXGroup;
+			children = (
+				E8296D5622C733CE0016579C /* model */,
+				E8296D5522C733C80016579C /* document */,
+				E8296D5422C733BE0016579C /* view */,
+				E8296D5322C733AE0016579C /* controller */,
+				E8296D2722C718E10016579C /* AppDelegate.swift */,
+				E8296D2B22C718E20016579C /* Assets.xcassets */,
+				E8296D2D22C718E20016579C /* Main.storyboard */,
+				E8296D3022C718E20016579C /* Info.plist */,
+				E8296D3122C718E20016579C /* GNote.entitlements */,
+			);
+			path = GNote;
+			sourceTree = "<group>";
+		};
+		E8296D3922C718E20016579C /* GNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8296D3A22C718E20016579C /* GNoteTests.swift */,
+				E8296D3C22C718E20016579C /* Info.plist */,
+			);
+			path = GNoteTests;
+			sourceTree = "<group>";
+		};
+		E8296D4422C718E20016579C /* GNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E8296D4522C718E20016579C /* GNoteUITests.swift */,
+				E8296D4722C718E20016579C /* Info.plist */,
+			);
+			path = GNoteUITests;
+			sourceTree = "<group>";
+		};
+		E8296D5322C733AE0016579C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E8296D5722C733F30016579C /* MainViewController.swift */,
+				E8296D5922C7340C0016579C /* MainWindowController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		E8296D5422C733BE0016579C /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E8296D5522C733C80016579C /* document */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = document;
+			sourceTree = "<group>";
+		};
+		E8296D5622C733CE0016579C /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8296D2322C718E10016579C /* GNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8296D4A22C718E20016579C /* Build configuration list for PBXNativeTarget "GNote" */;
+			buildPhases = (
+				CEF9D90C264B853313925E0F /* [CP] Check Pods Manifest.lock */,
+				E8296D2022C718E10016579C /* Sources */,
+				E8296D2122C718E10016579C /* Frameworks */,
+				E8296D2222C718E10016579C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GNote;
+			productName = GNote;
+			productReference = E8296D2422C718E10016579C /* GNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8296D3522C718E20016579C /* GNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8296D4D22C718E20016579C /* Build configuration list for PBXNativeTarget "GNoteTests" */;
+			buildPhases = (
+				68428DEE8F71F76083789280 /* [CP] Check Pods Manifest.lock */,
+				E8296D3222C718E20016579C /* Sources */,
+				E8296D3322C718E20016579C /* Frameworks */,
+				E8296D3422C718E20016579C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8296D3822C718E20016579C /* PBXTargetDependency */,
+			);
+			name = GNoteTests;
+			productName = GNoteTests;
+			productReference = E8296D3622C718E20016579C /* GNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8296D4022C718E20016579C /* GNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8296D5022C718E20016579C /* Build configuration list for PBXNativeTarget "GNoteUITests" */;
+			buildPhases = (
+				7BDA8F80423BD6C873307C03 /* [CP] Check Pods Manifest.lock */,
+				E8296D3D22C718E20016579C /* Sources */,
+				E8296D3E22C718E20016579C /* Frameworks */,
+				E8296D3F22C718E20016579C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8296D4322C718E20016579C /* PBXTargetDependency */,
+			);
+			name = GNoteUITests;
+			productName = GNoteUITests;
+			productReference = E8296D4122C718E20016579C /* GNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8296D1C22C718E10016579C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = keros;
+				TargetAttributes = {
+					E8296D2322C718E10016579C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					E8296D3522C718E20016579C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E8296D2322C718E10016579C;
+					};
+					E8296D4022C718E20016579C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E8296D2322C718E10016579C;
+					};
+				};
+			};
+			buildConfigurationList = E8296D1F22C718E10016579C /* Build configuration list for PBXProject "GNote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8296D1B22C718E10016579C;
+			productRefGroup = E8296D2522C718E10016579C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8296D2322C718E10016579C /* GNote */,
+				E8296D3522C718E20016579C /* GNoteTests */,
+				E8296D4022C718E20016579C /* GNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8296D2222C718E10016579C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8296D2C22C718E20016579C /* Assets.xcassets in Resources */,
+				E8296D2F22C718E20016579C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8296D3422C718E20016579C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8296D3F22C718E20016579C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68428DEE8F71F76083789280 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GNoteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BDA8F80423BD6C873307C03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GNoteUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEF9D90C264B853313925E0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GNote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8296D2022C718E10016579C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8296D5822C733F30016579C /* MainViewController.swift in Sources */,
+				E8296D5A22C7340C0016579C /* MainWindowController.swift in Sources */,
+				E8296D2822C718E10016579C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8296D3222C718E20016579C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8296D3B22C718E20016579C /* GNoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8296D3D22C718E20016579C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8296D4622C718E20016579C /* GNoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8296D3822C718E20016579C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8296D2322C718E10016579C /* GNote */;
+			targetProxy = E8296D3722C718E20016579C /* PBXContainerItemProxy */;
+		};
+		E8296D4322C718E20016579C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8296D2322C718E10016579C /* GNote */;
+			targetProxy = E8296D4222C718E20016579C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8296D2D22C718E20016579C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8296D2E22C718E20016579C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8296D4822C718E20016579C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8296D4922C718E20016579C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E8296D4B22C718E20016579C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C71E05F6CBCD1AB3EB26BA95 /* Pods-GNote.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GNote/GNote.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gourmetsoft.GNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E8296D4C22C718E20016579C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE314AF9AD3CCC67615D1142 /* Pods-GNote.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GNote/GNote.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gourmetsoft.GNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E8296D4E22C718E20016579C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFB5423FEB9211452529FE90 /* Pods-GNoteTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gourmetsoft.GNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GNote.app/Contents/MacOS/GNote";
+			};
+			name = Debug;
+		};
+		E8296D4F22C718E20016579C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84806C45785B05B942E27A21 /* Pods-GNoteTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gourmetsoft.GNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GNote.app/Contents/MacOS/GNote";
+			};
+			name = Release;
+		};
+		E8296D5122C718E20016579C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCDF42F1C7EA9F8777A2D22E /* Pods-GNoteUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gourmetsoft.GNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GNote;
+			};
+			name = Debug;
+		};
+		E8296D5222C718E20016579C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FDC48F630BA4A3753B1DDE0 /* Pods-GNoteUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gourmetsoft.GNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8296D1F22C718E10016579C /* Build configuration list for PBXProject "GNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8296D4822C718E20016579C /* Debug */,
+				E8296D4922C718E20016579C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8296D4A22C718E20016579C /* Build configuration list for PBXNativeTarget "GNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8296D4B22C718E20016579C /* Debug */,
+				E8296D4C22C718E20016579C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8296D4D22C718E20016579C /* Build configuration list for PBXNativeTarget "GNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8296D4E22C718E20016579C /* Debug */,
+				E8296D4F22C718E20016579C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8296D5022C718E20016579C /* Build configuration list for PBXNativeTarget "GNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8296D5122C718E20016579C /* Debug */,
+				E8296D5222C718E20016579C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8296D1C22C718E10016579C /* Project object */;
+}
