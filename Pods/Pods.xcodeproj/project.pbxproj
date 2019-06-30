@@ -8,66 +8,237 @@
 
 /* Begin PBXBuildFile section */
 		0125B443D6CAD273953765B4920E80E5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		0128E06E415A4468F61F0A099D4EE31A /* OIDClientMetadataParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C003973CDBA5B52D2A4CF3E303FAEF /* OIDClientMetadataParameters.m */; };
+		04575B0F2FFBBDFB1C47F5DCE5D817A3 /* Tolo.m in Sources */ = {isa = PBXBuildFile; fileRef = 072AD5DF692D437589A46F63825A6EE4 /* Tolo.m */; };
+		068B762F63A893D40E6B8F7C4F5D0308 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		08C74104AA5FED1213E5CA3B6673D48A /* OIDClientMetadataParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 112A11A7402F051B4D40CD098B322C6B /* OIDClientMetadataParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09BE8D8457BF16F8807704980FAEF96C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
 		0CDB5113DE70568EEF54F9984351FDEF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
-		2204B5764D08438FC15EB319A114DCA2 /* Pods-GNoteTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 413AA2B4A91816EE8D8C48069BDCBECB /* Pods-GNoteTests-dummy.m */; };
-		377709AD43B357B40092D23773B9CEEB /* Pods-GNote-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A75BEED7102BFB29781FC3A3CF6653DF /* Pods-GNote-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92512F9D8B0891552595E794487A7A76 /* Pods-GNoteUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 045201B9176353687B2A5F4E768D4B2F /* Pods-GNoteUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5C63FDBD9B9AC7D936DBA86B5F673E2 /* Pods-GNoteTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 902CCC13B03D31F04FB25855E545C011 /* Pods-GNoteTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4FA443E99DB0D2F53DD3B250A6CD35F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
-		C97A95BFE18A77AC5EACD2A9B4EA4061 /* Pods-GNoteUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C749230331E7F3A475815BBED67FB9CA /* Pods-GNoteUITests-dummy.m */; };
-		D32C92B08786686EDEC5E22462C040C8 /* Pods-GNote-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF87C4D9800133ED0390DA02688E825 /* Pods-GNote-dummy.m */; };
+		0D91DDC9581014DBBB61868B64A152EB /* AppAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C1C9639ACB429D158A927FE1D4E77BD /* AppAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DC76F9BB1EAB4797A2F480D491BEA03 /* OIDRedirectHTTPHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = BCDC83D5E1819C99E72E5A589904F503 /* OIDRedirectHTTPHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E38625C9E8BA8BBF8FE492201068D19 /* OIDAuthorizationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8890BC7522B015D91E99D948CBC567D2 /* OIDAuthorizationRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2204B5764D08438FC15EB319A114DCA2 /* Pods-GNoteTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C77EF856BB86B832A137087E01A02F /* Pods-GNoteTests-dummy.m */; };
+		258F5915623854D9741B98C76457D4A6 /* OIDRegistrationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 339D9FC1A90AF46A33E02742EE97E673 /* OIDRegistrationRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		284BA1A8B0AD438572DEAB5A751634FD /* OIDAuthorizationService+Mac.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB0D8EBE51775CB31E7B4801576DC7C /* OIDAuthorizationService+Mac.m */; };
+		29738521D638DD68D008428EB292FA52 /* OIDScopes.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B2E20BEEEF2465F692BF2B3FD01C2D /* OIDScopes.m */; };
+		33372AE9EE5AA3D23F2C4CBDDFCB28D5 /* OIDIDToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB4574DE2A8209708124B1B5B0CCC6 /* OIDIDToken.m */; };
+		350D9993A887FFE91CE56B79BDD6EE48 /* OIDAuthorizationService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FBC51F81BA376E00B658BEBA8D46021 /* OIDAuthorizationService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3740FD2392438591E95CB25B754DCD9B /* OIDErrorUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C58319D5B5CA7A66684EFA7B78D23523 /* OIDErrorUtilities.m */; };
+		3835417F531BD5F9B226C7E15852BC8A /* OIDLoopbackHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0B7C90E787DDF57F26666688C24634 /* OIDLoopbackHTTPServer.m */; };
+		3DA0F73637CDA4E94A69E97A9C3B3818 /* OIDDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = A6C9482362821BB84E5BFAF30877A2F6 /* OIDDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		438A45A5C486DF4F647C7008DE7F971A /* OIDTokenUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F4303D9DDD2C635DFEACEB41B3345B /* OIDTokenUtilities.m */; };
+		481AA876A3ED65AD692E574DE3CC5BA3 /* OIDGrantTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = E093D8C77DCDE20E6849AAC769DB3434 /* OIDGrantTypes.m */; };
+		4DA5CB74881BA60F7DBE3EE58A5B409B /* OIDServiceConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 288FEC5FDADF7437AD2ABA5EE9FDA8AD /* OIDServiceConfiguration.m */; };
+		4F8C5891597BDC3072F361402A2B8EC1 /* OIDURLSessionProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 800C5C4B95A450CA47D27E1D5C23B3AA /* OIDURLSessionProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		591DCE669A26CA95C028FEC7390178EE /* OIDScopeUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 15FFAA701817E5A3B8061595E233C610 /* OIDScopeUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DE8633E50D617BEAC8DFE34F1A6F7ED /* OIDAuthState+Mac.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BC9D02DDBAD903462F44EF94DA94467 /* OIDAuthState+Mac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DEDC74FAE9E8243E5C44E90C1A64019 /* OIDServiceConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = D0541C9DBEBFD594B8D3FDD00B0B5DCA /* OIDServiceConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EAFE12C0E4100F10A2929A89DFBF583 /* Pods-GNote-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F58D1197EC52F1016FF6ECF94C1A4C /* Pods-GNote-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FB92E6A27144B97C6B8734962F794C1 /* Pods-GNote-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 785C8D2707A9021B3C6765728DE45F77 /* Pods-GNote-dummy.m */; };
+		609AC66852BEA41F8E763107048C0CFD /* OIDRegistrationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C470FB59E3D344BB0B45386A3E8825DC /* OIDRegistrationRequest.m */; };
+		68220736B6C948CC49926B76DEEC44BF /* OIDAuthStateErrorDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC8F61CF9ED8650DBE35DB0A6501AC5 /* OIDAuthStateErrorDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7321FF1A520757EE9015CE92EE3BFE3F /* OIDRedirectHTTPHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4FFD4C700C2670E5B32C0AF660A83D /* OIDRedirectHTTPHandler.m */; };
+		76CF57DFAFE27963C86EE3B3DA05C424 /* OIDExternalUserAgentSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D9FE3B5712A1548A20E80B8B47261C3 /* OIDExternalUserAgentSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79BDC3B8E8FDCC367EB7D4431C8734F0 /* OIDExternalUserAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 05983A16B91D4A3CB0FD335E7321147F /* OIDExternalUserAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D78B306C9D68A3324AD526464989C8B /* OIDScopeUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE818D1FFB491DDB3E0A058EBC0B51F /* OIDScopeUtilities.m */; };
+		7E5BCEDE9A3444EC1B547FF2BA2C1F4F /* OIDTokenResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E1B2E9CAA51A1C2CFBEAE40B7895E85 /* OIDTokenResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		817D560312A9D7DD18271E22835461C3 /* OIDFieldMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 77FC53EB0249348F6C4642F2C65E3E83 /* OIDFieldMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82F9D1E41A1321F5A8A331C928F82D1B /* OIDAuthorizationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D07DCED70DED119A337772D96863F6BD /* OIDAuthorizationRequest.m */; };
+		84E15C65A1444B97C692C16D205E7CFD /* OIDRegistrationResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 673622FF72CF7CFA61D68CB8076FB93C /* OIDRegistrationResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86350F863A48DBE81ADA83816074EED8 /* AppAuthCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 62DF37EA8B17EF87615338BA57318ACF /* AppAuthCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8930F2BFA16103B08CCAE5D825E7141A /* OIDScopes.h in Headers */ = {isa = PBXBuildFile; fileRef = C396D1B014E05D6A43627FC84EE9ACFE /* OIDScopes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF846634151AD5ADE4D0138EA4D9A10 /* OIDAuthStateChangeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F2A654F277E728FC62072F47F58FD4 /* OIDAuthStateChangeDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F35FBD03B87C712E75149DF1ACCF1A0 /* OIDAuthorizationService+Mac.h in Headers */ = {isa = PBXBuildFile; fileRef = FF6B55076CF6707E8560739A274A566E /* OIDAuthorizationService+Mac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92512F9D8B0891552595E794487A7A76 /* Pods-GNoteUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC66929539423F759E99D6F0C2673B9 /* Pods-GNoteUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		935F9CFA29C70D2134D0701E0D876464 /* OIDAuthState+Mac.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D17E6A4B6364726F419C017400B798 /* OIDAuthState+Mac.m */; };
+		99C792214187A514EFA1E00BC137005B /* OIDExternalUserAgentRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C03B1AAC3DED8680CF72AF6C35CE0B1 /* OIDExternalUserAgentRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5C63FDBD9B9AC7D936DBA86B5F673E2 /* Pods-GNoteTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57243A7F8F254453068E57073C3B9B42 /* Pods-GNoteTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A789E6046C5F597B8B7EF3BCC9F68F4D /* OIDTokenUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 97F4D057D56DF8B9E48821895A908935 /* OIDTokenUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8192C7DCB0558BA6C669940590EAD31 /* OIDAuthState.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC4466B30BDA5A7BB639178528CD663 /* OIDAuthState.m */; };
+		A8438BC2E5847E7E7A37C2E46DA9C6F8 /* OIDAuthorizationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 63947D9F75AF4F9865E7B511B342DBB5 /* OIDAuthorizationService.m */; };
+		AA49B18BAE9E4A6FCAAE4987CBDA3170 /* Tolo.h in Headers */ = {isa = PBXBuildFile; fileRef = CD60389B67D2A188B156D67309F8D17E /* Tolo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0DDA1A4EA1BE43F79E4EA48E04716EC /* OIDErrorUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 24630F5B6378056E49AD909270025560 /* OIDErrorUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B148F58963F722C650BC4CB2D3963C9B /* OIDResponseTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = F32BC86C912D32E3D8E7A2746D2D230E /* OIDResponseTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3D2FE4A6A95F0EF547AEB92423C91B3 /* OIDServiceDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B13498A092ABA27366254167A9A267F /* OIDServiceDiscovery.m */; };
+		B3D96E2F980BC939E9227F2D7465D451 /* OIDTokenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0E1AB84A2E2698C5E09874D739F582 /* OIDTokenRequest.m */; };
+		B9F8F086A9AC6A5C21041CBA660A93B5 /* OIDAuthState.h in Headers */ = {isa = PBXBuildFile; fileRef = 0615D4A66F3EDB457518CA0DBFA278FF /* OIDAuthState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD1C7F7F1D484403B1127E53AC7B22D4 /* OIDExternalUserAgentMac.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9160E72B03F2123F1A1D707B66DFDB /* OIDExternalUserAgentMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD42C7EAAB7BECE28C64C4EF53BDB63E /* OIDRegistrationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D66DE6B7839B5F2A93C2D2F742CFEF3E /* OIDRegistrationResponse.m */; };
+		BEB8777438894DECF0889BBDA608E648 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		C3F5900DA5441B4AB88293B4ED1178C5 /* OIDTokenResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 772E65DAC7B438621F65603F9EF1629B /* OIDTokenResponse.m */; };
+		C5F902AC6175017D0568041277FEC39D /* OIDTokenRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BEEB508C2959053E9599C8B5E762173 /* OIDTokenRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C97A95BFE18A77AC5EACD2A9B4EA4061 /* Pods-GNoteUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5781EE180BD78AA4B91BF84D359279FE /* Pods-GNoteUITests-dummy.m */; };
+		D009225A2041E4BBFADB4A34AD523639 /* OIDLoopbackHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B6A1688ADFD79423FABCA622526FF7E /* OIDLoopbackHTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D19969EA9EC0540232B6E47E4C76EE0C /* OIDError.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFED3E51EFC043AB033DE35A361D36C /* OIDError.m */; };
+		D2D17B6C286CC878AE7F6203FE2AC049 /* tolo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FEB7FC15296E7CF06959B835B7932F6 /* tolo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D31B598EE910825D93520C600824F18B /* OIDServiceDiscovery.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FA96A30B6AFE66603662C328C67734F /* OIDServiceDiscovery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D46CFC2DFFB6146AA59745DAA047D446 /* OIDError.h in Headers */ = {isa = PBXBuildFile; fileRef = F1F01CA46AF106859BD9AD4BB994D9D5 /* OIDError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D70ABD72AAF4955274316944E64A8DEF /* OIDAuthorizationResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E213C9E987025AF3578A0BCCCB53584 /* OIDAuthorizationResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8D7D21BF5617D940B88D54313231697 /* OIDURLQueryComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F2C2F54846EAACC878D07B33D7860FF /* OIDURLQueryComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC8DA20BE01072D6FEF77E4310EC5DBF /* OIDGrantTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5FB4476D1AF23A44A4745C7CD60BC3 /* OIDGrantTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6F8FF046778CAFBCC186318BF033D80 /* tolo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E49658AFE0857394D76A5BF7891B76F /* tolo-dummy.m */; };
+		E8A1DD93FCE5BE9DFEF51BDF66B6CCE7 /* OIDFieldMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B062A6A8665C66CF2FD0AD598EB7627 /* OIDFieldMapping.m */; };
+		EF590AC88018DAA3002AD64DCD2E1809 /* AppAuth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D387C6E6C3D97C28E574F3D7E0EB845D /* AppAuth-dummy.m */; };
+		F019B898EFC3E5594EBA5CAD44B5D50C /* AppAuth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA6D6821950779D5DCB494FA051CEB3 /* AppAuth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3CAC44B29B1F283CF5DD70056A1726E /* OIDAuthorizationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 86464A64E9064FFB8164B937358AEAA1 /* OIDAuthorizationResponse.m */; };
+		F4D83A01CFBC980793596468E975949E /* OIDIDToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 69512C5677AF904A8C3C321CFDADE1CF /* OIDIDToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F54D3C2047B4558FD0E2110809493574 /* OIDExternalUserAgentMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CD04CC5A2666E1752DF796F0B0F4A6 /* OIDExternalUserAgentMac.m */; };
+		FB563EE7C2BE4445EC4FF42F243FDC66 /* OIDResponseTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FAA2AB25CB5B82B9D01BF58442340A /* OIDResponseTypes.m */; };
+		FBC80E82F2AFF43C2CFF8B21D5FF8412 /* OIDURLQueryComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AD99D7E58D6188F91424E38976BBE5 /* OIDURLQueryComponent.m */; };
+		FBE691AB96218340738A1A349A7B1BFE /* OIDURLSessionProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6078E6E343F3F150B6703A576C40A537 /* OIDURLSessionProvider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4504860D46385703BC318517B03BE592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEDD8FAED4F86E31E06803E351975E39;
+			remoteInfo = tolo;
+		};
 		540FE852DE7D06FA26D547AD8C5161FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8DE19C2AA0EA76702729A0E36600A6BD;
+			remoteGlobalIDString = 3555E1AAB048ACFE0A914ECFC0089D61;
 			remoteInfo = "Pods-GNote";
+		};
+		6F3485AB6AC8361DAC04430056D4C23E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14EAB8E7AC19870B7297F74A840E9609;
+			remoteInfo = AppAuth;
 		};
 		C3216D9814BACE75411931CA4AFA1D4F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8DE19C2AA0EA76702729A0E36600A6BD;
+			remoteGlobalIDString = 3555E1AAB048ACFE0A914ECFC0089D61;
 			remoteInfo = "Pods-GNote";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		026284ED2A1C9A8181AD2CC8C2915E97 /* Pods_GNoteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GNoteTests.framework; path = "Pods-GNoteTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		045201B9176353687B2A5F4E768D4B2F /* Pods-GNoteUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GNoteUITests-umbrella.h"; sourceTree = "<group>"; };
-		0BACDC245102F48D9F27315F56947F39 /* Pods-GNote-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNote-acknowledgements.plist"; sourceTree = "<group>"; };
-		0F958FA41151E3A66ABA15D325EC3613 /* Pods-GNote-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNote-Info.plist"; sourceTree = "<group>"; };
-		168DFB8947A4856AEF1ECCA5E29C50E6 /* Pods-GNoteTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNoteTests-Info.plist"; sourceTree = "<group>"; };
-		2DAAB0FA6D66F3B096A11FB7156CDAC5 /* Pods-GNoteTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNoteTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		413AA2B4A91816EE8D8C48069BDCBECB /* Pods-GNoteTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GNoteTests-dummy.m"; sourceTree = "<group>"; };
-		4426381AF838CB05D9373223C2D7075A /* Pods-GNoteTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GNoteTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		53042C85A977EA57CFC7E753BCFD1BB0 /* Pods_GNoteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GNoteUITests.framework; path = "Pods-GNoteUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CE8F57C7E75F7452126C810CAC82E2E /* Pods-GNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNote.debug.xcconfig"; sourceTree = "<group>"; };
-		620F459591F0E3FED5EE3D5E51E82C06 /* Pods_GNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GNote.framework; path = "Pods-GNote.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		62F92B2E2C15866CCB55A2ED783E9D27 /* Pods-GNoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNoteTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6765B9E47DB0672EC32E0E66D0E43EDC /* Pods-GNoteUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GNoteUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7B0DE3DFB5D172BC1E05ADCC1D15B88C /* Pods-GNote-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GNote-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7FF87C4D9800133ED0390DA02688E825 /* Pods-GNote-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GNote-dummy.m"; sourceTree = "<group>"; };
-		8678FB4942A016192032655F1D5FDAF1 /* Pods-GNoteTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GNoteTests.modulemap"; sourceTree = "<group>"; };
-		902CCC13B03D31F04FB25855E545C011 /* Pods-GNoteTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GNoteTests-umbrella.h"; sourceTree = "<group>"; };
-		93EFB95C8295AC022AB56E6CC7A0DA2E /* Pods-GNoteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNoteUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		968171E03ED92C2CB8CD119A66E9B168 /* Pods-GNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNote.release.xcconfig"; sourceTree = "<group>"; };
-		983AC1F61ACADFCF8B6DA6BB738BD28F /* Pods-GNoteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNoteTests.release.xcconfig"; sourceTree = "<group>"; };
-		991E20B384DD042DBCD96E40050B7E92 /* Pods-GNoteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNoteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		035DDCA1020F41AB55A6F80E49C5AEF8 /* Pods_GNoteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GNoteUITests.framework; path = "Pods-GNoteUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05983A16B91D4A3CB0FD335E7321147F /* OIDExternalUserAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDExternalUserAgent.h; path = Source/OIDExternalUserAgent.h; sourceTree = "<group>"; };
+		0615D4A66F3EDB457518CA0DBFA278FF /* OIDAuthState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthState.h; path = Source/OIDAuthState.h; sourceTree = "<group>"; };
+		066236C44003A42482D36B1759A71971 /* Pods-GNoteUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNoteUITests-Info.plist"; sourceTree = "<group>"; };
+		072AD5DF692D437589A46F63825A6EE4 /* Tolo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Tolo.m; path = Tolo/Tolo/Tolo.m; sourceTree = "<group>"; };
+		0ADD4BFE9800A13BEFDBA2F92D428019 /* tolo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "tolo-Info.plist"; sourceTree = "<group>"; };
+		0AE818D1FFB491DDB3E0A058EBC0B51F /* OIDScopeUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDScopeUtilities.m; path = Source/OIDScopeUtilities.m; sourceTree = "<group>"; };
+		0B6A1688ADFD79423FABCA622526FF7E /* OIDLoopbackHTTPServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDLoopbackHTTPServer.h; path = Source/macOS/LoopbackHTTPServer/OIDLoopbackHTTPServer.h; sourceTree = "<group>"; };
+		0BCFDC8ADE9A10D57103D7C51C403DB4 /* Pods-GNoteTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNoteTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0CC66929539423F759E99D6F0C2673B9 /* Pods-GNoteUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GNoteUITests-umbrella.h"; sourceTree = "<group>"; };
+		0FD769551800D1504A9018EAC2E030F1 /* AppAuth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppAuth-prefix.pch"; sourceTree = "<group>"; };
+		112A11A7402F051B4D40CD098B322C6B /* OIDClientMetadataParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDClientMetadataParameters.h; path = Source/OIDClientMetadataParameters.h; sourceTree = "<group>"; };
+		116685BB1DEE8AA358B9912BF70BB97D /* Pods-GNoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNoteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		15FFAA701817E5A3B8061595E233C610 /* OIDScopeUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDScopeUtilities.h; path = Source/OIDScopeUtilities.h; sourceTree = "<group>"; };
+		16D17E6A4B6364726F419C017400B798 /* OIDAuthState+Mac.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OIDAuthState+Mac.m"; path = "Source/macOS/OIDAuthState+Mac.m"; sourceTree = "<group>"; };
+		18EB0CC9A43D099E90BA3D6F93233961 /* Pods-GNoteUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNoteUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1BEEB508C2959053E9599C8B5E762173 /* OIDTokenRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDTokenRequest.h; path = Source/OIDTokenRequest.h; sourceTree = "<group>"; };
+		1FEB7FC15296E7CF06959B835B7932F6 /* tolo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "tolo-umbrella.h"; sourceTree = "<group>"; };
+		24630F5B6378056E49AD909270025560 /* OIDErrorUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDErrorUtilities.h; path = Source/OIDErrorUtilities.h; sourceTree = "<group>"; };
+		2728A0607C4BB9707F82C6F0B608B728 /* Pods-GNoteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNoteTests.release.xcconfig"; sourceTree = "<group>"; };
+		288FEC5FDADF7437AD2ABA5EE9FDA8AD /* OIDServiceConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDServiceConfiguration.m; path = Source/OIDServiceConfiguration.m; sourceTree = "<group>"; };
+		28F4A806984A5E1110BEA356668DB9F1 /* AppAuth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AppAuth.modulemap; sourceTree = "<group>"; };
+		28F7C26D175997DCE9F37E15295E91F0 /* Pods-GNoteUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GNoteUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B062A6A8665C66CF2FD0AD598EB7627 /* OIDFieldMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDFieldMapping.m; path = Source/OIDFieldMapping.m; sourceTree = "<group>"; };
+		2B0E1AB84A2E2698C5E09874D739F582 /* OIDTokenRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDTokenRequest.m; path = Source/OIDTokenRequest.m; sourceTree = "<group>"; };
+		2C1C9639ACB429D158A927FE1D4E77BD /* AppAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppAuth.h; path = Source/AppAuth.h; sourceTree = "<group>"; };
+		339D9FC1A90AF46A33E02742EE97E673 /* OIDRegistrationRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDRegistrationRequest.h; path = Source/OIDRegistrationRequest.h; sourceTree = "<group>"; };
+		343573D267D6B479AE9CF043253DD79A /* Pods-GNote.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GNote.modulemap"; sourceTree = "<group>"; };
+		38E2D1B2540DDF02326F87ED14315A47 /* tolo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = tolo.framework; path = tolo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8F3565986037CF904287889F458A82 /* AppAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AppAuth.framework; path = AppAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2C2F54846EAACC878D07B33D7860FF /* OIDURLQueryComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDURLQueryComponent.h; path = Source/OIDURLQueryComponent.h; sourceTree = "<group>"; };
+		40C003973CDBA5B52D2A4CF3E303FAEF /* OIDClientMetadataParameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDClientMetadataParameters.m; path = Source/OIDClientMetadataParameters.m; sourceTree = "<group>"; };
+		4B13498A092ABA27366254167A9A267F /* OIDServiceDiscovery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDServiceDiscovery.m; path = Source/OIDServiceDiscovery.m; sourceTree = "<group>"; };
+		4D6ACC6025CE195EA6CA722F2E2D1B1D /* Pods-GNote-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNote-acknowledgements.plist"; sourceTree = "<group>"; };
+		5193487D5E81A8AEEB5C7538550BBEC8 /* Pods-GNoteTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GNoteTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		56EE476C354C2904BBC937B2C81E1B2A /* AppAuth-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AppAuth-Info.plist"; sourceTree = "<group>"; };
+		57243A7F8F254453068E57073C3B9B42 /* Pods-GNoteTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GNoteTests-umbrella.h"; sourceTree = "<group>"; };
+		5781EE180BD78AA4B91BF84D359279FE /* Pods-GNoteUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GNoteUITests-dummy.m"; sourceTree = "<group>"; };
+		591D2EB91B5961899BAF576A938BB62B /* Pods-GNoteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNoteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5BA6D6821950779D5DCB494FA051CEB3 /* AppAuth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppAuth-umbrella.h"; sourceTree = "<group>"; };
+		5CCDA21765623DA0927B2332DACC64EE /* tolo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = tolo.modulemap; sourceTree = "<group>"; };
+		5FA96A30B6AFE66603662C328C67734F /* OIDServiceDiscovery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDServiceDiscovery.h; path = Source/OIDServiceDiscovery.h; sourceTree = "<group>"; };
+		6078E6E343F3F150B6703A576C40A537 /* OIDURLSessionProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDURLSessionProvider.m; path = Source/OIDURLSessionProvider.m; sourceTree = "<group>"; };
+		62DF37EA8B17EF87615338BA57318ACF /* AppAuthCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppAuthCore.h; path = Source/AppAuthCore.h; sourceTree = "<group>"; };
+		63947D9F75AF4F9865E7B511B342DBB5 /* OIDAuthorizationService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDAuthorizationService.m; path = Source/OIDAuthorizationService.m; sourceTree = "<group>"; };
+		648E6CAF3C30D7BA811319A301E46F28 /* Pods-GNote-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GNote-acknowledgements.markdown"; sourceTree = "<group>"; };
+		64AD99D7E58D6188F91424E38976BBE5 /* OIDURLQueryComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDURLQueryComponent.m; path = Source/OIDURLQueryComponent.m; sourceTree = "<group>"; };
+		673622FF72CF7CFA61D68CB8076FB93C /* OIDRegistrationResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDRegistrationResponse.h; path = Source/OIDRegistrationResponse.h; sourceTree = "<group>"; };
+		69512C5677AF904A8C3C321CFDADE1CF /* OIDIDToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDIDToken.h; path = Source/OIDIDToken.h; sourceTree = "<group>"; };
+		69C77EF856BB86B832A137087E01A02F /* Pods-GNoteTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GNoteTests-dummy.m"; sourceTree = "<group>"; };
+		6E213C9E987025AF3578A0BCCCB53584 /* OIDAuthorizationResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthorizationResponse.h; path = Source/OIDAuthorizationResponse.h; sourceTree = "<group>"; };
+		6E49658AFE0857394D76A5BF7891B76F /* tolo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "tolo-dummy.m"; sourceTree = "<group>"; };
+		6EBB4574DE2A8209708124B1B5B0CCC6 /* OIDIDToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDIDToken.m; path = Source/OIDIDToken.m; sourceTree = "<group>"; };
+		6F5FB4476D1AF23A44A4745C7CD60BC3 /* OIDGrantTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDGrantTypes.h; path = Source/OIDGrantTypes.h; sourceTree = "<group>"; };
+		772E65DAC7B438621F65603F9EF1629B /* OIDTokenResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDTokenResponse.m; path = Source/OIDTokenResponse.m; sourceTree = "<group>"; };
+		77FC53EB0249348F6C4642F2C65E3E83 /* OIDFieldMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDFieldMapping.h; path = Source/OIDFieldMapping.h; sourceTree = "<group>"; };
+		785C8D2707A9021B3C6765728DE45F77 /* Pods-GNote-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GNote-dummy.m"; sourceTree = "<group>"; };
+		7BC9D02DDBAD903462F44EF94DA94467 /* OIDAuthState+Mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OIDAuthState+Mac.h"; path = "Source/macOS/OIDAuthState+Mac.h"; sourceTree = "<group>"; };
+		7D1D8F5A193D2F1D2C6E76D9D28F7CAF /* Pods-GNoteUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GNoteUITests.modulemap"; sourceTree = "<group>"; };
+		7D9FE3B5712A1548A20E80B8B47261C3 /* OIDExternalUserAgentSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDExternalUserAgentSession.h; path = Source/OIDExternalUserAgentSession.h; sourceTree = "<group>"; };
+		7E1B2E9CAA51A1C2CFBEAE40B7895E85 /* OIDTokenResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDTokenResponse.h; path = Source/OIDTokenResponse.h; sourceTree = "<group>"; };
+		800C5C4B95A450CA47D27E1D5C23B3AA /* OIDURLSessionProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDURLSessionProvider.h; path = Source/OIDURLSessionProvider.h; sourceTree = "<group>"; };
+		8502D0BB30E1A67C4A1F6570DC3965CD /* tolo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "tolo-prefix.pch"; sourceTree = "<group>"; };
+		86464A64E9064FFB8164B937358AEAA1 /* OIDAuthorizationResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDAuthorizationResponse.m; path = Source/OIDAuthorizationResponse.m; sourceTree = "<group>"; };
+		86CD04CC5A2666E1752DF796F0B0F4A6 /* OIDExternalUserAgentMac.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDExternalUserAgentMac.m; path = Source/macOS/OIDExternalUserAgentMac.m; sourceTree = "<group>"; };
+		8890BC7522B015D91E99D948CBC567D2 /* OIDAuthorizationRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthorizationRequest.h; path = Source/OIDAuthorizationRequest.h; sourceTree = "<group>"; };
+		8B99CF8A00ECF9EC0E3657E724104AFB /* Pods-GNote-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNote-Info.plist"; sourceTree = "<group>"; };
+		8CD43042FD2DDFEA267954768E3D89F3 /* Pods-GNoteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNoteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		909E7B832CA22EFE75666EC27797EFA0 /* Pods_GNoteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GNoteTests.framework; path = "Pods-GNoteTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F4303D9DDD2C635DFEACEB41B3345B /* OIDTokenUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDTokenUtilities.m; path = Source/OIDTokenUtilities.m; sourceTree = "<group>"; };
+		97F4D057D56DF8B9E48821895A908935 /* OIDTokenUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDTokenUtilities.h; path = Source/OIDTokenUtilities.h; sourceTree = "<group>"; };
+		9C03B1AAC3DED8680CF72AF6C35CE0B1 /* OIDExternalUserAgentRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDExternalUserAgentRequest.h; path = Source/OIDExternalUserAgentRequest.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A75BEED7102BFB29781FC3A3CF6653DF /* Pods-GNote-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GNote-umbrella.h"; sourceTree = "<group>"; };
-		C749230331E7F3A475815BBED67FB9CA /* Pods-GNoteUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GNoteUITests-dummy.m"; sourceTree = "<group>"; };
-		D74F74826BA491D47ECFC08EEBA751D3 /* Pods-GNoteUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNoteUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DCFBC602B2F8E15FF1995B27ABC2E7D5 /* Pods-GNote.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GNote.modulemap"; sourceTree = "<group>"; };
-		E35590DB8395447BC035DD4CF358406B /* Pods-GNoteUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GNoteUITests.modulemap"; sourceTree = "<group>"; };
-		E6AB33860415619768B9ED548E855A2E /* Pods-GNoteUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNoteUITests-Info.plist"; sourceTree = "<group>"; };
+		9FBC51F81BA376E00B658BEBA8D46021 /* OIDAuthorizationService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthorizationService.h; path = Source/OIDAuthorizationService.h; sourceTree = "<group>"; };
+		A612F6F61265495F3A4CE8B5C980391A /* Pods-GNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNote.debug.xcconfig"; sourceTree = "<group>"; };
+		A6C9482362821BB84E5BFAF30877A2F6 /* OIDDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDDefines.h; path = Source/OIDDefines.h; sourceTree = "<group>"; };
+		A85A01357139542EC4FA06FAA5A5C685 /* AppAuth.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppAuth.xcconfig; sourceTree = "<group>"; };
+		A88D170E86A9263A827DDF67E59DD4A7 /* Pods-GNoteTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNoteTests-Info.plist"; sourceTree = "<group>"; };
+		ABC8F61CF9ED8650DBE35DB0A6501AC5 /* OIDAuthStateErrorDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthStateErrorDelegate.h; path = Source/OIDAuthStateErrorDelegate.h; sourceTree = "<group>"; };
+		ACFED3E51EFC043AB033DE35A361D36C /* OIDError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDError.m; path = Source/OIDError.m; sourceTree = "<group>"; };
+		B0FAA2AB25CB5B82B9D01BF58442340A /* OIDResponseTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDResponseTypes.m; path = Source/OIDResponseTypes.m; sourceTree = "<group>"; };
+		B9C2A7CCBB9C441D708034ECAD453693 /* tolo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = tolo.xcconfig; sourceTree = "<group>"; };
+		BCDC83D5E1819C99E72E5A589904F503 /* OIDRedirectHTTPHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDRedirectHTTPHandler.h; path = Source/macOS/OIDRedirectHTTPHandler.h; sourceTree = "<group>"; };
+		BD014E92DBB53E4015FAD6650BA81FAB /* Pods-GNoteTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GNoteTests.modulemap"; sourceTree = "<group>"; };
+		BF4FFD4C700C2670E5B32C0AF660A83D /* OIDRedirectHTTPHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDRedirectHTTPHandler.m; path = Source/macOS/OIDRedirectHTTPHandler.m; sourceTree = "<group>"; };
+		C0B2E20BEEEF2465F692BF2B3FD01C2D /* OIDScopes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDScopes.m; path = Source/OIDScopes.m; sourceTree = "<group>"; };
+		C396D1B014E05D6A43627FC84EE9ACFE /* OIDScopes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDScopes.h; path = Source/OIDScopes.h; sourceTree = "<group>"; };
+		C470FB59E3D344BB0B45386A3E8825DC /* OIDRegistrationRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDRegistrationRequest.m; path = Source/OIDRegistrationRequest.m; sourceTree = "<group>"; };
+		C4B0D0E70EE9B6CB5B048C57D5606D96 /* Pods-GNote-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GNote-frameworks.sh"; sourceTree = "<group>"; };
+		C58319D5B5CA7A66684EFA7B78D23523 /* OIDErrorUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDErrorUtilities.m; path = Source/OIDErrorUtilities.m; sourceTree = "<group>"; };
+		C9544820B0F30DBC59FA01FA317F63DF /* Pods_GNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GNote.framework; path = "Pods-GNote.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD60389B67D2A188B156D67309F8D17E /* Tolo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Tolo.h; path = Tolo/Tolo/Tolo.h; sourceTree = "<group>"; };
+		CF0B7C90E787DDF57F26666688C24634 /* OIDLoopbackHTTPServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDLoopbackHTTPServer.m; path = Source/macOS/LoopbackHTTPServer/OIDLoopbackHTTPServer.m; sourceTree = "<group>"; };
+		D0541C9DBEBFD594B8D3FDD00B0B5DCA /* OIDServiceConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDServiceConfiguration.h; path = Source/OIDServiceConfiguration.h; sourceTree = "<group>"; };
+		D07DCED70DED119A337772D96863F6BD /* OIDAuthorizationRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDAuthorizationRequest.m; path = Source/OIDAuthorizationRequest.m; sourceTree = "<group>"; };
+		D0F2A654F277E728FC62072F47F58FD4 /* OIDAuthStateChangeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthStateChangeDelegate.h; path = Source/OIDAuthStateChangeDelegate.h; sourceTree = "<group>"; };
+		D387C6E6C3D97C28E574F3D7E0EB845D /* AppAuth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AppAuth-dummy.m"; sourceTree = "<group>"; };
+		D66DE6B7839B5F2A93C2D2F742CFEF3E /* OIDRegistrationResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDRegistrationResponse.m; path = Source/OIDRegistrationResponse.m; sourceTree = "<group>"; };
+		DB9160E72B03F2123F1A1D707B66DFDB /* OIDExternalUserAgentMac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDExternalUserAgentMac.h; path = Source/macOS/OIDExternalUserAgentMac.h; sourceTree = "<group>"; };
+		E082ECD47C841F49FCD3C26B02E15BAE /* Pods-GNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNote.release.xcconfig"; sourceTree = "<group>"; };
+		E093D8C77DCDE20E6849AAC769DB3434 /* OIDGrantTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDGrantTypes.m; path = Source/OIDGrantTypes.m; sourceTree = "<group>"; };
+		F0F58D1197EC52F1016FF6ECF94C1A4C /* Pods-GNote-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GNote-umbrella.h"; sourceTree = "<group>"; };
+		F1F01CA46AF106859BD9AD4BB994D9D5 /* OIDError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDError.h; path = Source/OIDError.h; sourceTree = "<group>"; };
+		F32BC86C912D32E3D8E7A2746D2D230E /* OIDResponseTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDResponseTypes.h; path = Source/OIDResponseTypes.h; sourceTree = "<group>"; };
 		F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		FBC4466B30BDA5A7BB639178528CD663 /* OIDAuthState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDAuthState.m; path = Source/OIDAuthState.m; sourceTree = "<group>"; };
+		FCB0D8EBE51775CB31E7B4801576DC7C /* OIDAuthorizationService+Mac.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OIDAuthorizationService+Mac.m"; path = "Source/macOS/OIDAuthorizationService+Mac.m"; sourceTree = "<group>"; };
+		FF6B55076CF6707E8560739A274A566E /* OIDAuthorizationService+Mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OIDAuthorizationService+Mac.h"; path = "Source/macOS/OIDAuthorizationService+Mac.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1DD2D38C240FFD25B05C632FFE571228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BE8D8457BF16F8807704980FAEF96C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		206E8B2D33E97828663BB592EA7F1E92 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,11 +247,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75679F9366D1CF569FAC5FCA8494F7F5 /* Frameworks */ = {
+		5B9579BD0EA74D0E1B7DB94E1B82E165 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4FA443E99DB0D2F53DD3B250A6CD35F /* Cocoa.framework in Frameworks */,
+				068B762F63A893D40E6B8F7C4F5D0308 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,75 +263,210 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		92D39058365628E250C790668DE0F144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB8777438894DECF0889BBDA608E648 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		002DDAF9C9C6B83280086C21424FDAAC /* Pods-GNoteTests */ = {
+		0F348B3CF74F30A2DAE8E953445CD43B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8678FB4942A016192032655F1D5FDAF1 /* Pods-GNoteTests.modulemap */,
-				4426381AF838CB05D9373223C2D7075A /* Pods-GNoteTests-acknowledgements.markdown */,
-				2DAAB0FA6D66F3B096A11FB7156CDAC5 /* Pods-GNoteTests-acknowledgements.plist */,
-				413AA2B4A91816EE8D8C48069BDCBECB /* Pods-GNoteTests-dummy.m */,
-				168DFB8947A4856AEF1ECCA5E29C50E6 /* Pods-GNoteTests-Info.plist */,
-				902CCC13B03D31F04FB25855E545C011 /* Pods-GNoteTests-umbrella.h */,
-				62F92B2E2C15866CCB55A2ED783E9D27 /* Pods-GNoteTests.debug.xcconfig */,
-				983AC1F61ACADFCF8B6DA6BB738BD28F /* Pods-GNoteTests.release.xcconfig */,
+				A1F2F62572FCFF04F72F65E1255076B8 /* AppAuth */,
+				E60FA2D83F7747F0C9896909129E4E6D /* tolo */,
 			);
-			name = "Pods-GNoteTests";
-			path = "Target Support Files/Pods-GNoteTests";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		36C618DC8F0B1CC2231A5825D1B624A4 /* Targets Support Files */ = {
+		1157CCD60941EBE07E99EA7F1FD3CEA8 /* Pods-GNoteUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B3F0301F54B36D6A779A2E9891002893 /* Pods-GNote */,
-				002DDAF9C9C6B83280086C21424FDAAC /* Pods-GNoteTests */,
-				5879691B6C4EDDFC66A7D324539BA1D0 /* Pods-GNoteUITests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		5879691B6C4EDDFC66A7D324539BA1D0 /* Pods-GNoteUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E35590DB8395447BC035DD4CF358406B /* Pods-GNoteUITests.modulemap */,
-				6765B9E47DB0672EC32E0E66D0E43EDC /* Pods-GNoteUITests-acknowledgements.markdown */,
-				D74F74826BA491D47ECFC08EEBA751D3 /* Pods-GNoteUITests-acknowledgements.plist */,
-				C749230331E7F3A475815BBED67FB9CA /* Pods-GNoteUITests-dummy.m */,
-				E6AB33860415619768B9ED548E855A2E /* Pods-GNoteUITests-Info.plist */,
-				045201B9176353687B2A5F4E768D4B2F /* Pods-GNoteUITests-umbrella.h */,
-				93EFB95C8295AC022AB56E6CC7A0DA2E /* Pods-GNoteUITests.debug.xcconfig */,
-				991E20B384DD042DBCD96E40050B7E92 /* Pods-GNoteUITests.release.xcconfig */,
+				7D1D8F5A193D2F1D2C6E76D9D28F7CAF /* Pods-GNoteUITests.modulemap */,
+				28F7C26D175997DCE9F37E15295E91F0 /* Pods-GNoteUITests-acknowledgements.markdown */,
+				18EB0CC9A43D099E90BA3D6F93233961 /* Pods-GNoteUITests-acknowledgements.plist */,
+				5781EE180BD78AA4B91BF84D359279FE /* Pods-GNoteUITests-dummy.m */,
+				066236C44003A42482D36B1759A71971 /* Pods-GNoteUITests-Info.plist */,
+				0CC66929539423F759E99D6F0C2673B9 /* Pods-GNoteUITests-umbrella.h */,
+				8CD43042FD2DDFEA267954768E3D89F3 /* Pods-GNoteUITests.debug.xcconfig */,
+				591D2EB91B5961899BAF576A938BB62B /* Pods-GNoteUITests.release.xcconfig */,
 			);
 			name = "Pods-GNoteUITests";
 			path = "Target Support Files/Pods-GNoteUITests";
 			sourceTree = "<group>";
 		};
-		ACEE0D514148EAD490C402DC20F6EA29 /* Products */ = {
+		1B00CB51735C0D3A138A6C337D26EC0D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				620F459591F0E3FED5EE3D5E51E82C06 /* Pods_GNote.framework */,
-				026284ED2A1C9A8181AD2CC8C2915E97 /* Pods_GNoteTests.framework */,
-				53042C85A977EA57CFC7E753BCFD1BB0 /* Pods_GNoteUITests.framework */,
+				28F4A806984A5E1110BEA356668DB9F1 /* AppAuth.modulemap */,
+				A85A01357139542EC4FA06FAA5A5C685 /* AppAuth.xcconfig */,
+				D387C6E6C3D97C28E574F3D7E0EB845D /* AppAuth-dummy.m */,
+				56EE476C354C2904BBC937B2C81E1B2A /* AppAuth-Info.plist */,
+				0FD769551800D1504A9018EAC2E030F1 /* AppAuth-prefix.pch */,
+				5BA6D6821950779D5DCB494FA051CEB3 /* AppAuth-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppAuth";
+			sourceTree = "<group>";
+		};
+		42ED71F7FC368E48BA1D75153FA181A8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				62DF37EA8B17EF87615338BA57318ACF /* AppAuthCore.h */,
+				8890BC7522B015D91E99D948CBC567D2 /* OIDAuthorizationRequest.h */,
+				D07DCED70DED119A337772D96863F6BD /* OIDAuthorizationRequest.m */,
+				6E213C9E987025AF3578A0BCCCB53584 /* OIDAuthorizationResponse.h */,
+				86464A64E9064FFB8164B937358AEAA1 /* OIDAuthorizationResponse.m */,
+				9FBC51F81BA376E00B658BEBA8D46021 /* OIDAuthorizationService.h */,
+				63947D9F75AF4F9865E7B511B342DBB5 /* OIDAuthorizationService.m */,
+				0615D4A66F3EDB457518CA0DBFA278FF /* OIDAuthState.h */,
+				FBC4466B30BDA5A7BB639178528CD663 /* OIDAuthState.m */,
+				D0F2A654F277E728FC62072F47F58FD4 /* OIDAuthStateChangeDelegate.h */,
+				ABC8F61CF9ED8650DBE35DB0A6501AC5 /* OIDAuthStateErrorDelegate.h */,
+				112A11A7402F051B4D40CD098B322C6B /* OIDClientMetadataParameters.h */,
+				40C003973CDBA5B52D2A4CF3E303FAEF /* OIDClientMetadataParameters.m */,
+				A6C9482362821BB84E5BFAF30877A2F6 /* OIDDefines.h */,
+				F1F01CA46AF106859BD9AD4BB994D9D5 /* OIDError.h */,
+				ACFED3E51EFC043AB033DE35A361D36C /* OIDError.m */,
+				24630F5B6378056E49AD909270025560 /* OIDErrorUtilities.h */,
+				C58319D5B5CA7A66684EFA7B78D23523 /* OIDErrorUtilities.m */,
+				05983A16B91D4A3CB0FD335E7321147F /* OIDExternalUserAgent.h */,
+				9C03B1AAC3DED8680CF72AF6C35CE0B1 /* OIDExternalUserAgentRequest.h */,
+				7D9FE3B5712A1548A20E80B8B47261C3 /* OIDExternalUserAgentSession.h */,
+				77FC53EB0249348F6C4642F2C65E3E83 /* OIDFieldMapping.h */,
+				2B062A6A8665C66CF2FD0AD598EB7627 /* OIDFieldMapping.m */,
+				6F5FB4476D1AF23A44A4745C7CD60BC3 /* OIDGrantTypes.h */,
+				E093D8C77DCDE20E6849AAC769DB3434 /* OIDGrantTypes.m */,
+				69512C5677AF904A8C3C321CFDADE1CF /* OIDIDToken.h */,
+				6EBB4574DE2A8209708124B1B5B0CCC6 /* OIDIDToken.m */,
+				339D9FC1A90AF46A33E02742EE97E673 /* OIDRegistrationRequest.h */,
+				C470FB59E3D344BB0B45386A3E8825DC /* OIDRegistrationRequest.m */,
+				673622FF72CF7CFA61D68CB8076FB93C /* OIDRegistrationResponse.h */,
+				D66DE6B7839B5F2A93C2D2F742CFEF3E /* OIDRegistrationResponse.m */,
+				F32BC86C912D32E3D8E7A2746D2D230E /* OIDResponseTypes.h */,
+				B0FAA2AB25CB5B82B9D01BF58442340A /* OIDResponseTypes.m */,
+				C396D1B014E05D6A43627FC84EE9ACFE /* OIDScopes.h */,
+				C0B2E20BEEEF2465F692BF2B3FD01C2D /* OIDScopes.m */,
+				15FFAA701817E5A3B8061595E233C610 /* OIDScopeUtilities.h */,
+				0AE818D1FFB491DDB3E0A058EBC0B51F /* OIDScopeUtilities.m */,
+				D0541C9DBEBFD594B8D3FDD00B0B5DCA /* OIDServiceConfiguration.h */,
+				288FEC5FDADF7437AD2ABA5EE9FDA8AD /* OIDServiceConfiguration.m */,
+				5FA96A30B6AFE66603662C328C67734F /* OIDServiceDiscovery.h */,
+				4B13498A092ABA27366254167A9A267F /* OIDServiceDiscovery.m */,
+				1BEEB508C2959053E9599C8B5E762173 /* OIDTokenRequest.h */,
+				2B0E1AB84A2E2698C5E09874D739F582 /* OIDTokenRequest.m */,
+				7E1B2E9CAA51A1C2CFBEAE40B7895E85 /* OIDTokenResponse.h */,
+				772E65DAC7B438621F65603F9EF1629B /* OIDTokenResponse.m */,
+				97F4D057D56DF8B9E48821895A908935 /* OIDTokenUtilities.h */,
+				94F4303D9DDD2C635DFEACEB41B3345B /* OIDTokenUtilities.m */,
+				3F2C2F54846EAACC878D07B33D7860FF /* OIDURLQueryComponent.h */,
+				64AD99D7E58D6188F91424E38976BBE5 /* OIDURLQueryComponent.m */,
+				800C5C4B95A450CA47D27E1D5C23B3AA /* OIDURLSessionProvider.h */,
+				6078E6E343F3F150B6703A576C40A537 /* OIDURLSessionProvider.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		4B79643A35107F7239A56CADF480FDCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E8F3565986037CF904287889F458A82 /* AppAuth.framework */,
+				C9544820B0F30DBC59FA01FA317F63DF /* Pods_GNote.framework */,
+				909E7B832CA22EFE75666EC27797EFA0 /* Pods_GNoteTests.framework */,
+				035DDCA1020F41AB55A6F80E49C5AEF8 /* Pods_GNoteUITests.framework */,
+				38E2D1B2540DDF02326F87ED14315A47 /* tolo.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B3F0301F54B36D6A779A2E9891002893 /* Pods-GNote */ = {
+		85609E1270D2C4DEA48EEFEEDC020677 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DCFBC602B2F8E15FF1995B27ABC2E7D5 /* Pods-GNote.modulemap */,
-				7B0DE3DFB5D172BC1E05ADCC1D15B88C /* Pods-GNote-acknowledgements.markdown */,
-				0BACDC245102F48D9F27315F56947F39 /* Pods-GNote-acknowledgements.plist */,
-				7FF87C4D9800133ED0390DA02688E825 /* Pods-GNote-dummy.m */,
-				0F958FA41151E3A66ABA15D325EC3613 /* Pods-GNote-Info.plist */,
-				A75BEED7102BFB29781FC3A3CF6653DF /* Pods-GNote-umbrella.h */,
-				5CE8F57C7E75F7452126C810CAC82E2E /* Pods-GNote.debug.xcconfig */,
-				968171E03ED92C2CB8CD119A66E9B168 /* Pods-GNote.release.xcconfig */,
+				5CCDA21765623DA0927B2332DACC64EE /* tolo.modulemap */,
+				B9C2A7CCBB9C441D708034ECAD453693 /* tolo.xcconfig */,
+				6E49658AFE0857394D76A5BF7891B76F /* tolo-dummy.m */,
+				0ADD4BFE9800A13BEFDBA2F92D428019 /* tolo-Info.plist */,
+				8502D0BB30E1A67C4A1F6570DC3965CD /* tolo-prefix.pch */,
+				1FEB7FC15296E7CF06959B835B7932F6 /* tolo-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/tolo";
+			sourceTree = "<group>";
+		};
+		A1F2F62572FCFF04F72F65E1255076B8 /* AppAuth */ = {
+			isa = PBXGroup;
+			children = (
+				42ED71F7FC368E48BA1D75153FA181A8 /* Core */,
+				C5380A7912DE353894D3E38446721D7D /* ExternalUserAgent */,
+				1B00CB51735C0D3A138A6C337D26EC0D /* Support Files */,
+			);
+			name = AppAuth;
+			path = AppAuth;
+			sourceTree = "<group>";
+		};
+		ACFB412383BFFC6BF1D57B396B2D6961 /* Pods-GNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD014E92DBB53E4015FAD6650BA81FAB /* Pods-GNoteTests.modulemap */,
+				5193487D5E81A8AEEB5C7538550BBEC8 /* Pods-GNoteTests-acknowledgements.markdown */,
+				0BCFDC8ADE9A10D57103D7C51C403DB4 /* Pods-GNoteTests-acknowledgements.plist */,
+				69C77EF856BB86B832A137087E01A02F /* Pods-GNoteTests-dummy.m */,
+				A88D170E86A9263A827DDF67E59DD4A7 /* Pods-GNoteTests-Info.plist */,
+				57243A7F8F254453068E57073C3B9B42 /* Pods-GNoteTests-umbrella.h */,
+				116685BB1DEE8AA358B9912BF70BB97D /* Pods-GNoteTests.debug.xcconfig */,
+				2728A0607C4BB9707F82C6F0B608B728 /* Pods-GNoteTests.release.xcconfig */,
+			);
+			name = "Pods-GNoteTests";
+			path = "Target Support Files/Pods-GNoteTests";
+			sourceTree = "<group>";
+		};
+		AE05D177ECF0EA7093BDAF7BF888258D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B21A42FC77B99A92A52340F0196FB0D3 /* Pods-GNote */,
+				ACFB412383BFFC6BF1D57B396B2D6961 /* Pods-GNoteTests */,
+				1157CCD60941EBE07E99EA7F1FD3CEA8 /* Pods-GNoteUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B21A42FC77B99A92A52340F0196FB0D3 /* Pods-GNote */ = {
+			isa = PBXGroup;
+			children = (
+				343573D267D6B479AE9CF043253DD79A /* Pods-GNote.modulemap */,
+				648E6CAF3C30D7BA811319A301E46F28 /* Pods-GNote-acknowledgements.markdown */,
+				4D6ACC6025CE195EA6CA722F2E2D1B1D /* Pods-GNote-acknowledgements.plist */,
+				785C8D2707A9021B3C6765728DE45F77 /* Pods-GNote-dummy.m */,
+				C4B0D0E70EE9B6CB5B048C57D5606D96 /* Pods-GNote-frameworks.sh */,
+				8B99CF8A00ECF9EC0E3657E724104AFB /* Pods-GNote-Info.plist */,
+				F0F58D1197EC52F1016FF6ECF94C1A4C /* Pods-GNote-umbrella.h */,
+				A612F6F61265495F3A4CE8B5C980391A /* Pods-GNote.debug.xcconfig */,
+				E082ECD47C841F49FCD3C26B02E15BAE /* Pods-GNote.release.xcconfig */,
 			);
 			name = "Pods-GNote";
 			path = "Target Support Files/Pods-GNote";
+			sourceTree = "<group>";
+		};
+		C5380A7912DE353894D3E38446721D7D /* ExternalUserAgent */ = {
+			isa = PBXGroup;
+			children = (
+				2C1C9639ACB429D158A927FE1D4E77BD /* AppAuth.h */,
+				FF6B55076CF6707E8560739A274A566E /* OIDAuthorizationService+Mac.h */,
+				FCB0D8EBE51775CB31E7B4801576DC7C /* OIDAuthorizationService+Mac.m */,
+				7BC9D02DDBAD903462F44EF94DA94467 /* OIDAuthState+Mac.h */,
+				16D17E6A4B6364726F419C017400B798 /* OIDAuthState+Mac.m */,
+				DB9160E72B03F2123F1A1D707B66DFDB /* OIDExternalUserAgentMac.h */,
+				86CD04CC5A2666E1752DF796F0B0F4A6 /* OIDExternalUserAgentMac.m */,
+				0B6A1688ADFD79423FABCA622526FF7E /* OIDLoopbackHTTPServer.h */,
+				CF0B7C90E787DDF57F26666688C24634 /* OIDLoopbackHTTPServer.m */,
+				BCDC83D5E1819C99E72E5A589904F503 /* OIDRedirectHTTPHandler.h */,
+				BF4FFD4C700C2670E5B32C0AF660A83D /* OIDRedirectHTTPHandler.m */,
+			);
+			name = ExternalUserAgent;
 			sourceTree = "<group>";
 		};
 		CBD43E0947D94E318A0ED1350CFF29ED /* OS X */ = {
@@ -176,8 +482,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
-				ACEE0D514148EAD490C402DC20F6EA29 /* Products */,
-				36C618DC8F0B1CC2231A5825D1B624A4 /* Targets Support Files */,
+				0F348B3CF74F30A2DAE8E953445CD43B /* Pods */,
+				4B79643A35107F7239A56CADF480FDCF /* Products */,
+				AE05D177ECF0EA7093BDAF7BF888258D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -189,14 +496,85 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E60FA2D83F7747F0C9896909129E4E6D /* tolo */ = {
+			isa = PBXGroup;
+			children = (
+				CD60389B67D2A188B156D67309F8D17E /* Tolo.h */,
+				072AD5DF692D437589A46F63825A6EE4 /* Tolo.m */,
+				85609E1270D2C4DEA48EEFEEDC020677 /* Support Files */,
+			);
+			name = tolo;
+			path = tolo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		069742E13DFA0D4A0BFE8DB8B09308F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F019B898EFC3E5594EBA5CAD44B5D50C /* AppAuth-umbrella.h in Headers */,
+				0D91DDC9581014DBBB61868B64A152EB /* AppAuth.h in Headers */,
+				86350F863A48DBE81ADA83816074EED8 /* AppAuthCore.h in Headers */,
+				1E38625C9E8BA8BBF8FE492201068D19 /* OIDAuthorizationRequest.h in Headers */,
+				D70ABD72AAF4955274316944E64A8DEF /* OIDAuthorizationResponse.h in Headers */,
+				8F35FBD03B87C712E75149DF1ACCF1A0 /* OIDAuthorizationService+Mac.h in Headers */,
+				350D9993A887FFE91CE56B79BDD6EE48 /* OIDAuthorizationService.h in Headers */,
+				5DE8633E50D617BEAC8DFE34F1A6F7ED /* OIDAuthState+Mac.h in Headers */,
+				B9F8F086A9AC6A5C21041CBA660A93B5 /* OIDAuthState.h in Headers */,
+				8BF846634151AD5ADE4D0138EA4D9A10 /* OIDAuthStateChangeDelegate.h in Headers */,
+				68220736B6C948CC49926B76DEEC44BF /* OIDAuthStateErrorDelegate.h in Headers */,
+				08C74104AA5FED1213E5CA3B6673D48A /* OIDClientMetadataParameters.h in Headers */,
+				3DA0F73637CDA4E94A69E97A9C3B3818 /* OIDDefines.h in Headers */,
+				D46CFC2DFFB6146AA59745DAA047D446 /* OIDError.h in Headers */,
+				B0DDA1A4EA1BE43F79E4EA48E04716EC /* OIDErrorUtilities.h in Headers */,
+				79BDC3B8E8FDCC367EB7D4431C8734F0 /* OIDExternalUserAgent.h in Headers */,
+				BD1C7F7F1D484403B1127E53AC7B22D4 /* OIDExternalUserAgentMac.h in Headers */,
+				99C792214187A514EFA1E00BC137005B /* OIDExternalUserAgentRequest.h in Headers */,
+				76CF57DFAFE27963C86EE3B3DA05C424 /* OIDExternalUserAgentSession.h in Headers */,
+				817D560312A9D7DD18271E22835461C3 /* OIDFieldMapping.h in Headers */,
+				DC8DA20BE01072D6FEF77E4310EC5DBF /* OIDGrantTypes.h in Headers */,
+				F4D83A01CFBC980793596468E975949E /* OIDIDToken.h in Headers */,
+				D009225A2041E4BBFADB4A34AD523639 /* OIDLoopbackHTTPServer.h in Headers */,
+				1DC76F9BB1EAB4797A2F480D491BEA03 /* OIDRedirectHTTPHandler.h in Headers */,
+				258F5915623854D9741B98C76457D4A6 /* OIDRegistrationRequest.h in Headers */,
+				84E15C65A1444B97C692C16D205E7CFD /* OIDRegistrationResponse.h in Headers */,
+				B148F58963F722C650BC4CB2D3963C9B /* OIDResponseTypes.h in Headers */,
+				8930F2BFA16103B08CCAE5D825E7141A /* OIDScopes.h in Headers */,
+				591DCE669A26CA95C028FEC7390178EE /* OIDScopeUtilities.h in Headers */,
+				5DEDC74FAE9E8243E5C44E90C1A64019 /* OIDServiceConfiguration.h in Headers */,
+				D31B598EE910825D93520C600824F18B /* OIDServiceDiscovery.h in Headers */,
+				C5F902AC6175017D0568041277FEC39D /* OIDTokenRequest.h in Headers */,
+				7E5BCEDE9A3444EC1B547FF2BA2C1F4F /* OIDTokenResponse.h in Headers */,
+				A789E6046C5F597B8B7EF3BCC9F68F4D /* OIDTokenUtilities.h in Headers */,
+				D8D7D21BF5617D940B88D54313231697 /* OIDURLQueryComponent.h in Headers */,
+				4F8C5891597BDC3072F361402A2B8EC1 /* OIDURLSessionProvider.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1126F2029CB938BCFCFE40CB28897A92 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A5C63FDBD9B9AC7D936DBA86B5F673E2 /* Pods-GNoteTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255C7E6757BD0CA8A2819D99EBC0876B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAFE12C0E4100F10A2929A89DFBF583 /* Pods-GNote-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C313E4271D93ECFC28FB680BB5FF431 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D17B6C286CC878AE7F6203FE2AC049 /* tolo-umbrella.h in Headers */,
+				AA49B18BAE9E4A6FCAAE4987CBDA3170 /* Tolo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,17 +586,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAA452BFCE2A200C90B7D2D4CF8D5CC7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				377709AD43B357B40092D23773B9CEEB /* Pods-GNote-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		14EAB8E7AC19870B7297F74A840E9609 /* AppAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD573DD2B6C65DFB59D034298B05952E /* Build configuration list for PBXNativeTarget "AppAuth" */;
+			buildPhases = (
+				069742E13DFA0D4A0BFE8DB8B09308F4 /* Headers */,
+				8AEE3BCDFEBED9F2579B821AA2ACBBF8 /* Sources */,
+				5B9579BD0EA74D0E1B7DB94E1B82E165 /* Frameworks */,
+				03C041BB162ED569BDA8C1284EE8650D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppAuth;
+			productName = AppAuth;
+			productReference = 3E8F3565986037CF904287889F458A82 /* AppAuth.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3555E1AAB048ACFE0A914ECFC0089D61 /* Pods-GNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BCEFA8EEC83957D08E112F3B74BCAF6 /* Build configuration list for PBXNativeTarget "Pods-GNote" */;
+			buildPhases = (
+				255C7E6757BD0CA8A2819D99EBC0876B /* Headers */,
+				FF0875BB886A000E78F3E41AB1BEB7E9 /* Sources */,
+				1DD2D38C240FFD25B05C632FFE571228 /* Frameworks */,
+				0882E38E16CA7699613847D4566B7F86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67B587CF0A091E82D4D7D1F22ECD397E /* PBXTargetDependency */,
+				B1904C92583777CDAD796EA32B1B2A9F /* PBXTargetDependency */,
+			);
+			name = "Pods-GNote";
+			productName = "Pods-GNote";
+			productReference = C9544820B0F30DBC59FA01FA317F63DF /* Pods_GNote.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		7E1CD4A848D8067D93F11AC69A9FD038 /* Pods-GNoteUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07D2B8208299EDAA88D6CF1463F91F50 /* Build configuration list for PBXNativeTarget "Pods-GNoteUITests" */;
@@ -235,25 +643,7 @@
 			);
 			name = "Pods-GNoteUITests";
 			productName = "Pods-GNoteUITests";
-			productReference = 53042C85A977EA57CFC7E753BCFD1BB0 /* Pods_GNoteUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8DE19C2AA0EA76702729A0E36600A6BD /* Pods-GNote */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C28A0C1A61A40330DB91EEAEF11E4363 /* Build configuration list for PBXNativeTarget "Pods-GNote" */;
-			buildPhases = (
-				FAA452BFCE2A200C90B7D2D4CF8D5CC7 /* Headers */,
-				6528B46A59E87B2C84A1E2009D27BE8A /* Sources */,
-				75679F9366D1CF569FAC5FCA8494F7F5 /* Frameworks */,
-				8FF1871759C55CDA41CC1F9C82CA84A0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-GNote";
-			productName = "Pods-GNote";
-			productReference = 620F459591F0E3FED5EE3D5E51E82C06 /* Pods_GNote.framework */;
+			productReference = 035DDCA1020F41AB55A6F80E49C5AEF8 /* Pods_GNoteUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A9AC3FF0A65EC4882D4F28D367FECC81 /* Pods-GNoteTests */ = {
@@ -272,7 +662,25 @@
 			);
 			name = "Pods-GNoteTests";
 			productName = "Pods-GNoteTests";
-			productReference = 026284ED2A1C9A8181AD2CC8C2915E97 /* Pods_GNoteTests.framework */;
+			productReference = 909E7B832CA22EFE75666EC27797EFA0 /* Pods_GNoteTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AEDD8FAED4F86E31E06803E351975E39 /* tolo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35C4090D8EC3719884AB0D7CFD6E0648 /* Build configuration list for PBXNativeTarget "tolo" */;
+			buildPhases = (
+				7C313E4271D93ECFC28FB680BB5FF431 /* Headers */,
+				BB0F212AD9EBCFDF0AD71C826CCAFA67 /* Sources */,
+				92D39058365628E250C790668DE0F144 /* Frameworks */,
+				B854F656354BE8D3D4C834E1E7F91D98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tolo;
+			productName = tolo;
+			productReference = 38E2D1B2540DDF02326F87ED14315A47 /* tolo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -292,18 +700,34 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = ACEE0D514148EAD490C402DC20F6EA29 /* Products */;
+			productRefGroup = 4B79643A35107F7239A56CADF480FDCF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8DE19C2AA0EA76702729A0E36600A6BD /* Pods-GNote */,
+				14EAB8E7AC19870B7297F74A840E9609 /* AppAuth */,
+				3555E1AAB048ACFE0A914ECFC0089D61 /* Pods-GNote */,
 				A9AC3FF0A65EC4882D4F28D367FECC81 /* Pods-GNoteTests */,
 				7E1CD4A848D8067D93F11AC69A9FD038 /* Pods-GNoteUITests */,
+				AEDD8FAED4F86E31E06803E351975E39 /* tolo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		03C041BB162ED569BDA8C1284EE8650D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0882E38E16CA7699613847D4566B7F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		322E94C021E30E2E440E5E8CCBCFEA91 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -311,7 +735,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8FF1871759C55CDA41CC1F9C82CA84A0 /* Resources */ = {
+		B854F656354BE8D3D4C834E1E7F91D98 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -336,11 +760,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6528B46A59E87B2C84A1E2009D27BE8A /* Sources */ = {
+		8AEE3BCDFEBED9F2579B821AA2ACBBF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D32C92B08786686EDEC5E22462C040C8 /* Pods-GNote-dummy.m in Sources */,
+				EF590AC88018DAA3002AD64DCD2E1809 /* AppAuth-dummy.m in Sources */,
+				82F9D1E41A1321F5A8A331C928F82D1B /* OIDAuthorizationRequest.m in Sources */,
+				F3CAC44B29B1F283CF5DD70056A1726E /* OIDAuthorizationResponse.m in Sources */,
+				284BA1A8B0AD438572DEAB5A751634FD /* OIDAuthorizationService+Mac.m in Sources */,
+				A8438BC2E5847E7E7A37C2E46DA9C6F8 /* OIDAuthorizationService.m in Sources */,
+				935F9CFA29C70D2134D0701E0D876464 /* OIDAuthState+Mac.m in Sources */,
+				A8192C7DCB0558BA6C669940590EAD31 /* OIDAuthState.m in Sources */,
+				0128E06E415A4468F61F0A099D4EE31A /* OIDClientMetadataParameters.m in Sources */,
+				D19969EA9EC0540232B6E47E4C76EE0C /* OIDError.m in Sources */,
+				3740FD2392438591E95CB25B754DCD9B /* OIDErrorUtilities.m in Sources */,
+				F54D3C2047B4558FD0E2110809493574 /* OIDExternalUserAgentMac.m in Sources */,
+				E8A1DD93FCE5BE9DFEF51BDF66B6CCE7 /* OIDFieldMapping.m in Sources */,
+				481AA876A3ED65AD692E574DE3CC5BA3 /* OIDGrantTypes.m in Sources */,
+				33372AE9EE5AA3D23F2C4CBDDFCB28D5 /* OIDIDToken.m in Sources */,
+				3835417F531BD5F9B226C7E15852BC8A /* OIDLoopbackHTTPServer.m in Sources */,
+				7321FF1A520757EE9015CE92EE3BFE3F /* OIDRedirectHTTPHandler.m in Sources */,
+				609AC66852BEA41F8E763107048C0CFD /* OIDRegistrationRequest.m in Sources */,
+				BD42C7EAAB7BECE28C64C4EF53BDB63E /* OIDRegistrationResponse.m in Sources */,
+				FB563EE7C2BE4445EC4FF42F243FDC66 /* OIDResponseTypes.m in Sources */,
+				29738521D638DD68D008428EB292FA52 /* OIDScopes.m in Sources */,
+				7D78B306C9D68A3324AD526464989C8B /* OIDScopeUtilities.m in Sources */,
+				4DA5CB74881BA60F7DBE3EE58A5B409B /* OIDServiceConfiguration.m in Sources */,
+				B3D2FE4A6A95F0EF547AEB92423C91B3 /* OIDServiceDiscovery.m in Sources */,
+				B3D96E2F980BC939E9227F2D7465D451 /* OIDTokenRequest.m in Sources */,
+				C3F5900DA5441B4AB88293B4ED1178C5 /* OIDTokenResponse.m in Sources */,
+				438A45A5C486DF4F647C7008DE7F971A /* OIDTokenUtilities.m in Sources */,
+				FBC80E82F2AFF43C2CFF8B21D5FF8412 /* OIDURLQueryComponent.m in Sources */,
+				FBE691AB96218340738A1A349A7B1BFE /* OIDURLSessionProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,19 +803,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BB0F212AD9EBCFDF0AD71C826CCAFA67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F8FF046778CAFBCC186318BF033D80 /* tolo-dummy.m in Sources */,
+				04575B0F2FFBBDFB1C47F5DCE5D817A3 /* Tolo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0875BB886A000E78F3E41AB1BEB7E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB92E6A27144B97C6B8734962F794C1 /* Pods-GNote-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		3CB4CC8C98C789C9E7799895989E0596 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-GNote";
-			target = 8DE19C2AA0EA76702729A0E36600A6BD /* Pods-GNote */;
+			target = 3555E1AAB048ACFE0A914ECFC0089D61 /* Pods-GNote */;
 			targetProxy = C3216D9814BACE75411931CA4AFA1D4F /* PBXContainerItemProxy */;
+		};
+		67B587CF0A091E82D4D7D1F22ECD397E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppAuth;
+			target = 14EAB8E7AC19870B7297F74A840E9609 /* AppAuth */;
+			targetProxy = 6F3485AB6AC8361DAC04430056D4C23E /* PBXContainerItemProxy */;
+		};
+		B1904C92583777CDAD796EA32B1B2A9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tolo;
+			target = AEDD8FAED4F86E31E06803E351975E39 /* tolo */;
+			targetProxy = 4504860D46385703BC318517B03BE592 /* PBXContainerItemProxy */;
 		};
 		F82B6521119140226281FEB8837BC2F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-GNote";
-			target = 8DE19C2AA0EA76702729A0E36600A6BD /* Pods-GNote */;
+			target = 3555E1AAB048ACFE0A914ECFC0089D61 /* Pods-GNote */;
 			targetProxy = 540FE852DE7D06FA26D547AD8C5161FC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -372,7 +852,7 @@
 /* Begin XCBuildConfiguration section */
 		04552AC2A02E1ECDD3D863F0BB981303 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 983AC1F61ACADFCF8B6DA6BB738BD28F /* Pods-GNoteTests.release.xcconfig */;
+			baseConfigurationReference = 2728A0607C4BB9707F82C6F0B608B728 /* Pods-GNoteTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -412,7 +892,7 @@
 		};
 		0922766066D298EF08AA2368EBA144D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93EFB95C8295AC022AB56E6CC7A0DA2E /* Pods-GNoteUITests.debug.xcconfig */;
+			baseConfigurationReference = 8CD43042FD2DDFEA267954768E3D89F3 /* Pods-GNoteUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -452,7 +932,7 @@
 		};
 		1C9787CE6FE548AF73EBC4101F37F793 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 991E20B384DD042DBCD96E40050B7E92 /* Pods-GNoteUITests.release.xcconfig */;
+			baseConfigurationReference = 591D2EB91B5961899BAF576A938BB62B /* Pods-GNoteUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -554,6 +1034,43 @@
 			};
 			name = Debug;
 		};
+		522A0AD12E1D3B34720546595612666A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A85A01357139542EC4FA06FAA5A5C685 /* AppAuth.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/AppAuth/AppAuth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AppAuth/AppAuth-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/AppAuth/AppAuth.modulemap";
+				PRODUCT_MODULE_NAME = AppAuth;
+				PRODUCT_NAME = AppAuth;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		597E092427DF423992C59C814880FE96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -614,9 +1131,9 @@
 			};
 			name = Release;
 		};
-		7E0F9FEBEF9D818E7F7FFD6A776DE62D /* Release */ = {
+		5CB61E8C95B56190788DFBAE3C4CD198 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 968171E03ED92C2CB8CD119A66E9B168 /* Pods-GNote.release.xcconfig */;
+			baseConfigurationReference = A612F6F61265495F3A4CE8B5C980391A /* Pods-GNote.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -652,11 +1169,85 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
+			name = Debug;
+		};
+		5DB914403BFF38A61A3F2223F0A154C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9C2A7CCBB9C441D708034ECAD453693 /* tolo.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/tolo/tolo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/tolo/tolo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/tolo/tolo.modulemap";
+				PRODUCT_MODULE_NAME = tolo;
+				PRODUCT_NAME = tolo;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6EFA6FC92B208078AA65EA1A6FF862C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9C2A7CCBB9C441D708034ECAD453693 /* tolo.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/tolo/tolo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/tolo/tolo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/tolo/tolo.modulemap";
+				PRODUCT_MODULE_NAME = tolo;
+				PRODUCT_NAME = tolo;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
 			name = Release;
 		};
 		A8EAD227CC68D6F8A37BB73902188F6E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62F92B2E2C15866CCB55A2ED783E9D27 /* Pods-GNoteTests.debug.xcconfig */;
+			baseConfigurationReference = 116685BB1DEE8AA358B9912BF70BB97D /* Pods-GNoteTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -694,9 +1285,46 @@
 			};
 			name = Debug;
 		};
-		D92E3E7ED2D3A3710D86878952B0D7CC /* Debug */ = {
+		B723D7450A39F4560707241CFF878732 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CE8F57C7E75F7452126C810CAC82E2E /* Pods-GNote.debug.xcconfig */;
+			baseConfigurationReference = A85A01357139542EC4FA06FAA5A5C685 /* AppAuth.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/AppAuth/AppAuth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AppAuth/AppAuth-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/AppAuth/AppAuth.modulemap";
+				PRODUCT_MODULE_NAME = AppAuth;
+				PRODUCT_NAME = AppAuth;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7A4AFEBBA0EAB5F85E3BF2E05822FA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E082ECD47C841F49FCD3C26B02E15BAE /* Pods-GNote.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -732,7 +1360,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -746,6 +1374,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		35C4090D8EC3719884AB0D7CFD6E0648 /* Build configuration list for PBXNativeTarget "tolo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB914403BFF38A61A3F2223F0A154C7 /* Debug */,
+				6EFA6FC92B208078AA65EA1A6FF862C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -755,11 +1392,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C28A0C1A61A40330DB91EEAEF11E4363 /* Build configuration list for PBXNativeTarget "Pods-GNote" */ = {
+		8BCEFA8EEC83957D08E112F3B74BCAF6 /* Build configuration list for PBXNativeTarget "Pods-GNote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D92E3E7ED2D3A3710D86878952B0D7CC /* Debug */,
-				7E0F9FEBEF9D818E7F7FFD6A776DE62D /* Release */,
+				5CB61E8C95B56190788DFBAE3C4CD198 /* Debug */,
+				E7A4AFEBBA0EAB5F85E3BF2E05822FA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -769,6 +1406,15 @@
 			buildConfigurations = (
 				A8EAD227CC68D6F8A37BB73902188F6E /* Debug */,
 				04552AC2A02E1ECDD3D863F0BB981303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD573DD2B6C65DFB59D034298B05952E /* Build configuration list for PBXNativeTarget "AppAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522A0AD12E1D3B34720546595612666A /* Debug */,
+				B723D7450A39F4560707241CFF878732 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

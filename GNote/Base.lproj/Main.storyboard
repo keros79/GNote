@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="tkD-0G-e5q">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -681,9 +681,86 @@
             <point key="canvasLocation" x="75" y="0.0"/>
         </scene>
         <!--Window Controller-->
+        <scene sceneID="rOB-Sp-eba">
+            <objects>
+                <windowController id="tkD-0G-e5q" sceneMemberID="viewController">
+                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="GDV-FL-9EZ">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+                        <rect key="contentRect" x="196" y="240" width="480" height="377"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+                        <connections>
+                            <outlet property="delegate" destination="tkD-0G-e5q" id="Jjs-Vu-ujK"/>
+                        </connections>
+                    </window>
+                    <connections>
+                        <segue destination="FDv-Uu-mTe" kind="relationship" relationship="window.shadowedContentViewController" id="iZI-fy-pZA"/>
+                    </connections>
+                </windowController>
+                <customObject id="Ja4-N4-FjQ" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="106" y="-445.5"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="IOW-Gd-Y1k">
+            <objects>
+                <viewController id="FDv-Uu-mTe" customClass="LoginViewController" customModule="GNote" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="Sme-IM-usO">
+                        <rect key="frame" x="0.0" y="0.0" width="332" height="408"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <box boxType="custom" title="Box" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="8sd-fW-AIr">
+                                <rect key="frame" x="0.0" y="0.0" width="332" height="408"/>
+                                <view key="contentView" id="gCd-qT-uZH">
+                                    <rect key="frame" x="1" y="1" width="330" height="406"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="udo-T0-str">
+                                            <rect key="frame" x="65" y="265" width="200" height="59"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="59" id="lvr-xG-b4F"/>
+                                                <constraint firstAttribute="width" constant="200" id="o6B-1r-8jf"/>
+                                            </constraints>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="title" id="8uA-er-rOM"/>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="udo-T0-str" firstAttribute="centerX" secondItem="gCd-qT-uZH" secondAttribute="centerX" id="HI5-0P-Zdf"/>
+                                        <constraint firstItem="udo-T0-str" firstAttribute="top" secondItem="gCd-qT-uZH" secondAttribute="top" constant="82" id="Q92-AK-MBH"/>
+                                    </constraints>
+                                </view>
+                                <color key="borderColor" red="0.15495935080000001" green="0.55759006739999994" blue="0.89808046819999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="fillColor" red="0.15495935080000001" green="0.55759006739999994" blue="0.89808046819999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </box>
+                            <button ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="exe-Nj-ADW">
+                                <rect key="frame" x="86" y="189" width="160" height="30"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="google_signin" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="E2v-HA-5dv">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="onGoogleSigninTapped:" target="FDv-Uu-mTe" id="Uqq-ev-q4W"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="8sd-fW-AIr" secondAttribute="bottom" id="UsD-Py-IQa"/>
+                            <constraint firstItem="exe-Nj-ADW" firstAttribute="centerY" secondItem="Sme-IM-usO" secondAttribute="centerY" id="VIb-BN-oOr"/>
+                            <constraint firstItem="8sd-fW-AIr" firstAttribute="leading" secondItem="Sme-IM-usO" secondAttribute="leading" id="c9K-Sq-9p1"/>
+                            <constraint firstAttribute="trailing" secondItem="8sd-fW-AIr" secondAttribute="trailing" id="pLa-jh-9a8"/>
+                            <constraint firstItem="exe-Nj-ADW" firstAttribute="top" secondItem="udo-T0-str" secondAttribute="bottom" constant="47" id="sqq-Ar-nhx"/>
+                            <constraint firstItem="8sd-fW-AIr" firstAttribute="top" secondItem="Sme-IM-usO" secondAttribute="top" id="tvb-P3-vwe"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="QUQ-js-j3o" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="619" y="-455"/>
+        </scene>
+        <!--Window Controller-->
         <scene sceneID="R2V-B0-nI4">
             <objects>
-                <windowController id="B8D-0N-5wS" customClass="MainWindowController" customModule="GNote" customModuleProvider="target" sceneMemberID="viewController">
+                <windowController storyboardIdentifier="MainWindowController" id="B8D-0N-5wS" customClass="MainWindowController" customModule="GNote" customModuleProvider="target" sceneMemberID="viewController">
                     <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
@@ -903,7 +980,7 @@
         <scene sceneID="hIz-AP-VOD">
             <objects>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
-                <viewController id="XfG-lQ-9wD" customClass="MainViewController" customModule="GNote" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController identifier="MainViewController" storyboardIdentifier="MainViewController" id="XfG-lQ-9wD" customClass="MainViewController" customModule="GNote" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="711" height="531"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -936,4 +1013,8 @@
             <point key="canvasLocation" x="76" y="1071"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="google_signin" width="160" height="30"/>
+        <image name="title" width="200" height="60"/>
+    </resources>
 </document>

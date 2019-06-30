@@ -16,6 +16,7 @@
 		E8296D4622C718E20016579C /* GNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8296D4522C718E20016579C /* GNoteUITests.swift */; };
 		E8296D5822C733F30016579C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8296D5722C733F30016579C /* MainViewController.swift */; };
 		E8296D5A22C7340C0016579C /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8296D5922C7340C0016579C /* MainWindowController.swift */; };
+		E89F953122C7360A004D4734 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89F953022C7360A004D4734 /* LoginViewController.swift */; };
 		EC8FABE58852077C01F3CA47 /* Pods_GNoteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1AC6C208C2B7345ADFBAEFC /* Pods_GNoteTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		E8296D4722C718E20016579C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8296D5722C733F30016579C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E8296D5922C7340C0016579C /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		E89F953022C7360A004D4734 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FCDF42F1C7EA9F8777A2D22E /* Pods-GNoteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNoteUITests.debug.xcconfig"; path = "Target Support Files/Pods-GNoteUITests/Pods-GNoteUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FE314AF9AD3CCC67615D1142 /* Pods-GNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNote.release.xcconfig"; path = "Target Support Files/Pods-GNote/Pods-GNote.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,7 +102,6 @@
 				FCDF42F1C7EA9F8777A2D22E /* Pods-GNoteUITests.debug.xcconfig */,
 				8FDC48F630BA4A3753B1DDE0 /* Pods-GNoteUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -139,6 +140,7 @@
 		E8296D2622C718E10016579C /* GNote */ = {
 			isa = PBXGroup;
 			children = (
+				E897893622C87F840019BDEB /* logic */,
 				E8296D5622C733CE0016579C /* model */,
 				E8296D5522C733C80016579C /* document */,
 				E8296D5422C733BE0016579C /* view */,
@@ -175,6 +177,7 @@
 			children = (
 				E8296D5722C733F30016579C /* MainViewController.swift */,
 				E8296D5922C7340C0016579C /* MainWindowController.swift */,
+				E89F953022C7360A004D4734 /* LoginViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -200,6 +203,13 @@
 			path = model;
 			sourceTree = "<group>";
 		};
+		E897893622C87F840019BDEB /* logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = logic;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -211,6 +221,7 @@
 				E8296D2022C718E10016579C /* Sources */,
 				E8296D2122C718E10016579C /* Frameworks */,
 				E8296D2222C718E10016579C /* Resources */,
+				EB7B206997E0768828453375 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -395,6 +406,30 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EB7B206997E0768828453375 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GNote/Pods-GNote-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/tolo/tolo.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/tolo.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GNote/Pods-GNote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -402,6 +437,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E89F953122C7360A004D4734 /* LoginViewController.swift in Sources */,
 				E8296D5822C733F30016579C /* MainViewController.swift in Sources */,
 				E8296D5A22C7340C0016579C /* MainWindowController.swift in Sources */,
 				E8296D2822C718E10016579C /* AppDelegate.swift in Sources */,

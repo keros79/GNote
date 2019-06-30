@@ -1,3 +1,24 @@
-PODFILE CHECKSUM: b3d25ce04ee10296ac204b84bcc1f769f6453883
+PODS:
+  - AppAuth (1.0.0):
+    - AppAuth/Core (= 1.0.0)
+    - AppAuth/ExternalUserAgent (= 1.0.0)
+  - AppAuth/Core (1.0.0)
+  - AppAuth/ExternalUserAgent (1.0.0)
+  - tolo (1.0.3)
+
+DEPENDENCIES:
+  - AppAuth
+  - tolo (= 1.0.3)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AppAuth
+    - tolo
+
+SPEC CHECKSUMS:
+  AppAuth: c42547576838bf025b852736dd9b8a1c943fe68f
+  tolo: 29c7bef885a6dd6773f9dfe2dfcd961c53c526c4
+
+PODFILE CHECKSUM: c7d9cf0677a0daa11222b83d5cf258f4ed748a04
 
 COCOAPODS: 1.6.1
