@@ -21,9 +21,33 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Insert code here to tear down your application
     }
 
-    func application(_ application:NSApplication, open urls: [URL]) {
-        print("openURLs:", urls)
+    func handleAppleEvent(event: NSAppleEventDescriptor, replyEvent: NSAppleEventDescriptor) {
+        guard let appleEventDescription = event.paramDescriptor(forKeyword: AEKeyword(keyDirectObject)) else {
+            return
+        }
+        
+        guard let appleEventURLString = appleEventDescription.stringValue else {
+            return
+        }
+        
+        let appleEventURL = URL(string: appleEventURLString)
+        
+        print("Received Apple Event URL: \(appleEventURL)")
     }
-
+    
+    func registerMyApp() {
+    NSAppleEventManager.shared().setEventHandler(self,
+                                                 andSelector: #selector(AppDelegate.handleEvent(_:withReplyEvent:)),
+                                                 forEventClass: AEEventClass(kInternetEventClass),
+                                                 andEventID: AEEventID(kAEGetURL));
+    /*
+        [[NSAppleEventManager sharedAppleEventManager] setEventHandler:self andSelector:@selector(getUrl:withReplyEvent:) forEventClass:kInternetEventClass andEventID:kAEGetURL];
+ */
+    
+    }
+    
+    @objc func getUrl(_ withReplyEvent: NSAppleEventDescriptor!, withReplyEvent: NSAppleEventDescriptor!) {
+        
+    }
 }
 
