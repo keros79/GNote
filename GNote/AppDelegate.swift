@@ -36,18 +36,20 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     func registerMyApp() {
-    NSAppleEventManager.shared().setEventHandler(self,
+        /*
+         NSAppleEventManager.shared().setEventHandler(self,
                                                  andSelector: #selector(AppDelegate.handleEvent(_:withReplyEvent:)),
                                                  forEventClass: AEEventClass(kInternetEventClass),
                                                  andEventID: AEEventID(kAEGetURL));
-    /*
         [[NSAppleEventManager sharedAppleEventManager] setEventHandler:self andSelector:@selector(getUrl:withReplyEvent:) forEventClass:kInternetEventClass andEventID:kAEGetURL];
- */
+         */
     
     }
     
+    /*
     @objc func getUrl(_ withReplyEvent: NSAppleEventDescriptor!, withReplyEvent: NSAppleEventDescriptor!) {
         
     }
+    */
 }
 

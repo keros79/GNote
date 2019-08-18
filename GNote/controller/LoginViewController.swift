@@ -23,7 +23,6 @@ class LoginViewController: NSViewController {
     
     func signin() {
         
-        LaunchServices.de
         let issuer = NSURL(string:"https://accounts.google.com");
         OIDAuthorizationService.discoverConfiguration(forIssuer: issuer! as URL) { (configuration, error) in
             
